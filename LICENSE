@@ -1,10 +1,24 @@
 Copyright (c) 2026 shadow011-dev. All rights reserved.
 
 Permission is granted, free of charge, to download, install and run Indra
-for personal, non-commercial use. You may not redistribute, modify,
-reverse engineer, or use it commercially. This permission ends if you
-violate these terms. Portions use third-party code under its own license
-(see THIRD_PARTY_NOTICES.md).
+(the "Software") for personal, non-commercial use only.
+
+Definitions:
+"Personal use" means use by an individual for their own non-business purposes.
+Using the Software in any paid, monetized or business activity is commercial use.
+
+You may not:
+1. Redistribute the Software, in whole or in part.
+2. Modify the Software, or create derivative works from it.
+3. Reverse engineer, decompile or disassemble the Software, except to the
+   extent the law allows despite this restriction.
+4. Use the Software commercially.
+
+Termination: if you violate these terms, your permission ends unless you
+fully comply within 30 days of receiving written notice of the violation.
+
+Third-party components: portions of the Software use third-party code under
+its own license. See THIRD_PARTY_NOTICES.md.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. THE AUTHOR
 IS NOT LIABLE FOR ANY CLAIM OR DAMAGES ARISING FROM ITS USE.
