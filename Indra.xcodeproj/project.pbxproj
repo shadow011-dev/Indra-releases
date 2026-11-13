@@ -7,49 +7,1029 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0270160C1EF2239B1D593A8F /* SharedCI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91426042173BE1208141634E /* SharedCI.swift */; };
+		044AC3A8F129C92F80A142FB /* SpotifyWebAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ABCC19D0EE6ED8706AF7C7 /* SpotifyWebAPI.swift */; };
+		049BCC802E1D42D3538139E4 /* NowPlayingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C40B9D597FD27E5F7132A9D /* NowPlayingHelper.swift */; };
+		04E9830809BC1980A1379856 /* TaskAlarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C31DC5C604B77E05B43CC1 /* TaskAlarm.swift */; };
+		0638C94A8592758ED401D230 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505526313C248C2D8555B07D /* WeatherView.swift */; };
+		089BB38DAAFFE5729E7B88F7 /* MenuBarIconTinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970027F0E834417F16E44526 /* MenuBarIconTinter.swift */; };
+		089E923C9C5DD4F4B6B44D62 /* NotchContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBC539B0E073FC0B24D91F6 /* NotchContextMenu.swift */; };
+		08DDEAEF0A33D1B961483A7E /* RingLightGuard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6479017E70662F83351BCE0B /* RingLightGuard.swift */; };
+		0902D753F90679D08BFC48B9 /* AppLockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81998F87F158AA2EDDDD8E60 /* AppLockView.swift */; };
+		0B5BB2D6A234ABC7EB181630 /* NotchState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4CFBD3FB1D81BC18810CCF /* NotchState.swift */; };
+		0CAAEAD0EF96D731EB5EC2A2 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A613347C477F1C360A91D2 /* Haptics.swift */; };
+		0F09796F0EEDCF7E1646EA72 /* StickySpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5110A12C1AAD2A080BC73B /* StickySpace.swift */; };
+		105C1D01CE1C155292B8AD32 /* NotchRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D7D9735823AA827C45665D /* NotchRootView.swift */; };
+		11869114FE4C6AB1DDFA733E /* VariableBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDB232BE04CCE9F9239F39 /* VariableBlur.swift */; };
+		128024CC5B56CB1846A92711 /* AppLockSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1041F94FD315CB7EF94C70C /* AppLockSession.swift */; };
+		12894E5F764AC41EDACEA2C5 /* Diagnostics.swift in Sources */ = {isa = PBXBuildFile; fileRef = F047BD25B4ADDEF87CF23515 /* Diagnostics.swift */; };
+		12B1819D737B68B72F8E9E34 /* LivenessFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1008F1F91A4D55F2D5BD16E5 /* LivenessFeatures.swift */; };
+		12CBD9514E461CF1AE95C445 /* DropArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1361076A4AACC0FD28695767 /* DropArchive.swift */; };
+		1376BB70B99A8028226C86C4 /* TipsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B0D24FCB4FA934AAAE35F5 /* TipsPage.swift */; };
+		137BE2F135B1B75C42924EF7 /* FocusEdgeOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AAE074DFC71D96C5990A85 /* FocusEdgeOverlay.swift */; };
+		13D32E82A7726EEC5C797B26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF969E53D1EDCE09139EFA6 /* AppDelegate.swift */; };
+		13E042B61F11461C79EFD152 /* HapticLab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494FF0AF3DE5AB4CB3AC9CE4 /* HapticLab.swift */; };
+		17DC41D18921254F934BD619 /* AppLockOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763A8107857003CEF7C97292 /* AppLockOverlay.swift */; };
+		193C46B75F8FD87C61F617E0 /* KeystrokeInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7A2B12B13C450E836ABD03 /* KeystrokeInjector.swift */; };
+		19666F6FE284D0B4610F90D5 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151C2493E6D2BB614A86C6AF /* TodoView.swift */; };
+		19731588542B6A0879835F13 /* QueueDock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F7BF0FBA2B138F5C412691 /* QueueDock.swift */; };
+		19ADE7EB5102ED4B4EDE2E27 /* IdleActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD9B7FCC2C88493691164A8 /* IdleActivity.swift */; };
+		1AA160EA447601E5ED9E4948 /* CursorCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2A1997026AF6B45E56E8DF /* CursorCenter.swift */; };
+		1AF12C1DBBAD0D95BAE49301 /* SessionAutoLocker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666968FB0F785BA77F5E5BFF /* SessionAutoLocker.swift */; };
+		1BAB65EC01C5F9B2E5EB39BD /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB10235A9215F4AA1CFDD997 /* Design.swift */; };
+		1C766CCA18F412A885326FBD /* YouthShandey.otf in Resources */ = {isa = PBXBuildFile; fileRef = 11927F119A869A6180FEE0F3 /* YouthShandey.otf */; };
+		1EA3C1F4A62C2C9C5E8B2265 /* ArcFace.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 6DB00EAC65A0BB0D04C36367 /* ArcFace.mlpackage */; };
+		1F36F64C178268A5C8B2D269 /* TrayStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB638BC5275DB88A5F793A17 /* TrayStore.swift */; };
+		208B27A3F84E25DCB7483C08 /* NotchWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE391025786B2BA5A36C58E6 /* NotchWindowController.swift */; };
+		2192BC181A02ED7F2F51AE29 /* BackgroundJobs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CABE136A91D54316518CD86 /* BackgroundJobs.swift */; };
+		2310BCF94CF46B21F45F1C4A /* EnrollmentRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71218A9F9A7AC412519117B /* EnrollmentRingView.swift */; };
+		2446522CB1C46D5D265B17CE /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEC1C4CD71F24A0760530F1 /* CameraPreviewView.swift */; };
+		24E6F6961351F6AB0DDE6120 /* RingLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6678EC06A6C972F71FEB9BC8 /* RingLight.swift */; };
+		26187FA824573EC2F80C8567 /* DownlineHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570EE26466B0B5A721893536 /* DownlineHUD.swift */; };
+		264AA90A8D45ACBA985DC833 /* Credits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174505825D76DCD2D0650B19 /* Credits.swift */; };
+		2737B380DB61B792F0A92956 /* WelcomeActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27DAA7F0B2DFFDC1C84065A /* WelcomeActivity.swift */; };
+		2817D9FB8589FD4194623EB7 /* InlineHUDPercent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C20B66D66604333B157F30 /* InlineHUDPercent.swift */; };
+		28DA939CF7E5C7EF590994AD /* AccentColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD019D7770A70F9BA554A8A /* AccentColor.swift */; };
+		29AD0256B3692ED624FF3B24 /* FaceLockTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B68745AE101E881FAAD3093 /* FaceLockTheme.swift */; };
+		2AB2E463A1CD479AC10D46E5 /* VinylPod.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98B2C09E47BC04AE056C855 /* VinylPod.swift */; };
+		2B3FA4D5F07B88BBEEBBF101 /* LockScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87299A5A1DCB2045B75537E1 /* LockScreenView.swift */; };
+		2D852012FF1DDD933835C41E /* OnboardingStepViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947A7D8069EF1289C0D40EA7 /* OnboardingStepViews.swift */; };
+		2E4284D9D02F629E8C49B549 /* IntroAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053F92B9880007E2E14873EC /* IntroAnimation.swift */; };
+		2E738BA05CDE3C6B07ADA5D5 /* SecureCredentialManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14178C92AD8C74E3B15504A5 /* SecureCredentialManager.swift */; };
+		2F6B87E946F466B815984205 /* BluetoothIPad.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6E851DD68119B9FA70F84BFC /* BluetoothIPad.gif */; };
+		30D0DA6674EBD3624F0BF952 /* Trace.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C6C9F574D30AFC859FE9C3 /* Trace.swift */; };
+		3131FD7893BBCA8386521D9A /* FaceLockMenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16E86202C8753F866DA2B63 /* FaceLockMenuBar.swift */; };
+		318FF1426E383035560C8DA1 /* PasswordSettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7180F9017659376E05666717 /* PasswordSettingsPage.swift */; };
+		31C374261925B711F7278F0D /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0D82FB98663A2FA2FF9C5B /* MainWindowController.swift */; };
+		31DFEB3B703E8753D8BBFFE4 /* SoftSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91791AD5EF62549A7C3D21BE /* SoftSound.swift */; };
+		320FB14003C4B029773BE606 /* TaskPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F747E6B7C2B6003A856EA7AB /* TaskPopup.swift */; };
+		32B7C9AB606777F6C32A24D1 /* NotchOverlayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4382A239B7963BD3A45F045C /* NotchOverlayController.swift */; };
+		332AD6325323F64E153F35EE /* MinimalUnlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDD213E48D4DFC2A5A1ACF2 /* MinimalUnlockView.swift */; };
+		33592C1E5155DE02C9F9BF14 /* RemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFC94C6CD050DF9B7B4E6D3 /* RemindersView.swift */; };
+		34C7F0F3A7BDCBD3B5F4C061 /* MainWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F2D4F3D5F088F2A7019496 /* MainWindowView.swift */; };
+		3509BFD79A5BA828897E126A /* Pressable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E7461F4CBB0FC6E487B0C7 /* Pressable.swift */; };
+		370BF32D9E46234FADA598A5 /* NotchGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40448F0C0A9135DB3D6F9543 /* NotchGeometry.swift */; };
+		37B5D6FCE473D676BB1704F6 /* NotchShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA34BCE505EE288B18A475E /* NotchShape.swift */; };
+		392EE152883346351C33D0FB /* FaceAligner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E91BE7783EAB9B2B2D4692 /* FaceAligner.swift */; };
+		3AD6EB595FAA2ACB7FDA4CA7 /* MediaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C9B7117EA480824B153521 /* MediaController.swift */; };
+		3B46CDE56283D95DBCE5FE6F /* CameraDeviceCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39F10063F4F6BC86E5EEA24 /* CameraDeviceCatalog.swift */; };
+		3D53F417C02B1B4D9E5183E2 /* POCController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7044AD311EC378552BAA45 /* POCController.swift */; };
+		3E52C4B9D3D40E1DB0E79FE6 /* AnimationColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D693BBC3111FFD2B982881 /* AnimationColor.swift */; };
+		3EB9EDCC87F8C93FB998C168 /* IndraIntro.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 71035DE8C02D3F64CE06A48D /* IndraIntro.mp4 */; };
+		3EC8B32FA354D9444382B68C /* WeatherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462504CC9A4835CE3D0752B /* WeatherController.swift */; };
+		3FE78FDE762927A4A9D4E5E8 /* FaceRecognitionPipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506F858189918FBD928C0EFF /* FaceRecognitionPipeline.swift */; };
+		429F6C9E68BE6C402681AE28 /* LandmarkGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B709E1EFDAA1CE4B7D5D308F /* LandmarkGeometry.swift */; };
+		4568A63125446A323FCE6519 /* GlareCueExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C1A24F9DB6B6C110296EB6 /* GlareCueExtractor.swift */; };
+		45CA7E80A15068818285461F /* GlareCue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021B1466332315895C990E62 /* GlareCue.swift */; };
+		46C5E919656DAE4ED632A134 /* CameraSettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2ED08B928912795926637B /* CameraSettingsPage.swift */; };
+		480F92FE7681ECD253895211 /* Visualizers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E809D769081993C80130DAE3 /* Visualizers.swift */; };
+		49150F4411D30654B3F1B41E /* IndraWelcome.wav in Resources */ = {isa = PBXBuildFile; fileRef = A683621190BBC51E708F1375 /* IndraWelcome.wav */; };
+		49E3F2F2797E75756B183604 /* EnrollmentDirectionSweep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60783B53B8FD20F19ECAEE08 /* EnrollmentDirectionSweep.swift */; };
+		4B31682BF9E05C689D7D4760 /* DropZone.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF43E2B9FFCD516EE0018B8A /* DropZone.swift */; };
+		4C90D332E60D5C7F66D1EF28 /* AxisLockedScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4785292789316B1026A78F93 /* AxisLockedScroll.swift */; };
+		4D33E1921C56F397B2F2E5F5 /* BluetoothMouse.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8692ECB92563E479CAA98D42 /* BluetoothMouse.gif */; };
+		4E547C6C4B9855A6FAA59EF6 /* MirrorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EA433389B5DAEB69B6C0DF /* MirrorController.swift */; };
+		4E9BF490CB5C483821270B83 /* LaunchAtLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E769E8686DC86C884C3737E1 /* LaunchAtLogin.swift */; };
+		4EBD41F0103AD330D84A35B4 /* BluetoothMacBook.gif in Resources */ = {isa = PBXBuildFile; fileRef = A159352144FDB5C37DFB18EA /* BluetoothMacBook.gif */; };
+		4F1AEA26167CA4AC3CCA5D3D /* FaceUnlockCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A79FF068F1CA92BA6C0ED2 /* FaceUnlockCoordinator.swift */; };
+		514B842C30B6C7BA3921FE67 /* BackdropPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14414204C056CB96E8A76AC /* BackdropPanel.swift */; };
+		5215594DE393D1D33BBF6A27 /* BluetoothHomePodSheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 64708492C73F83BACC1B65E5 /* BluetoothHomePodSheet.png */; };
+		53C490D73CDD4FC311F3E54B /* BluetoothWatchSheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B16B3DF0FD796960DD73002 /* BluetoothWatchSheet.png */; };
+		553C08ACB58407E560711F8F /* LivenessAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D0D73692002DE3E46ABE2E /* LivenessAnalyzer.swift */; };
+		56DCC980B347FD0D71E94598 /* FaceScanWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BFEBD46050A80D0CB95E8A /* FaceScanWindow.swift */; };
+		57A38E3E8396BB4EDA9771E3 /* LyricsRomanizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B47E01186C3DD8B2EE66FC0 /* LyricsRomanizer.swift */; };
+		58370BB1D0E50B3A49A3EBAB /* DragPasteboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770971196FEBCA51F6F73E94 /* DragPasteboard.swift */; };
+		586A587B4EB67D1964FDA23F /* UpdateNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B6A46CD679143E5F0785DE /* UpdateNotice.swift */; };
+		58E915B555C3D789886032EF /* DuoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C817240B4189213F994EFA /* DuoView.swift */; };
+		5B9CFD6DE362CBD8650080AE /* DropFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EBED01A5038FE3428B4735 /* DropFiles.swift */; };
+		5BB6D24B9D7F77E00A088FB8 /* HealthMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C8CA1B31D69164586E18F9 /* HealthMonitor.swift */; };
+		5E6D4606C0DB5A105C7B9ADB /* DeveloperAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B01E802EB0FAECE9DCE365E /* DeveloperAccess.swift */; };
+		5E77D23220C4AF25321AACCC /* TrackpadActuator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B290FB3FDC40B2F62A68A1FB /* TrackpadActuator.swift */; };
+		5FF520C1C123801F9690ED06 /* BluetoothWatch.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2861F84EF4D0F48179D080B6 /* BluetoothWatch.gif */; };
+		600E05D7AF27FC0114B7A519 /* TrayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5900729735AFDB96EC3476 /* TrayView.swift */; };
+		6118C776BB570A7BF22C0AC3 /* SensoryMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B1B9A4127DEF835B890C4B /* SensoryMonitor.swift */; };
+		62A76BECB42C2A4084B5CF17 /* BluetoothIPhone.gif in Resources */ = {isa = PBXBuildFile; fileRef = ABC01A7A3971BF2D2492D1B5 /* BluetoothIPhone.gif */; };
+		635B45204F2C5D0741C42182 /* FaceEmbedder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C62FD011E893599B0D8991 /* FaceEmbedder.swift */; };
+		64123279C4D274FC4A3D0B5B /* YourFaceSettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D5A548AF733542A53C694 /* YourFaceSettingsPage.swift */; };
+		659C50116753CBBA003BE46D /* MotionArtwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = B890FEFE1FE1840D1C32FB7E /* MotionArtwork.swift */; };
+		6849D306072AE0EC0738B971 /* NetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB614BBCD61A3F792DE11999 /* NetTests.swift */; };
+		69F1573FFD942AC17B5F590F /* SafeNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D68B59805BE31A88D2383ED /* SafeNumbers.swift */; };
+		69F42AA00C3B6CF9F9B55C1B /* ScrollEdgeFade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93081B1B27A354887E2CAD8B /* ScrollEdgeFade.swift */; };
+		6BD263146C04AEFC39D1A9BD /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72E55AB34E8F4D1DED184C4 /* CalendarView.swift */; };
+		6F7EB38736E4BB91F9FA722E /* unlockstatic.png in Resources */ = {isa = PBXBuildFile; fileRef = F157A6BE4FD00EF7DD8B99FD /* unlockstatic.png */; };
+		6FEDE950A893C62CCF913B02 /* SettingsWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E20C7C12066CAAB1D522B2 /* SettingsWindowController.swift */; };
+		712EF40454941892B645DC6B /* BluetoothIMac.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6E5ED736FA8152A0DA4F336B /* BluetoothIMac.gif */; };
+		72F9B78D00ED25CEC8BDD599 /* AppPresence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FC8EE2E46A9C47F34EEB62 /* AppPresence.swift */; };
+		7467D456CBEA779897C70257 /* FreezeTrail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17F84FADC31A3639365C856 /* FreezeTrail.swift */; };
+		75AC947AF0A13F49BA0FE899 /* ClockStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D89D3E5EDA61693C3A9C002 /* ClockStyles.swift */; };
+		7B68CB1645F59765643C896A /* IslandSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3251621C1C4A742CC6EAFA2 /* IslandSettings.swift */; };
+		7C5D6F9AE29C94FE7FC0E597 /* LockCursor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DF2A6B565E0BBA10C49862 /* LockCursor.swift */; };
+		7C76FA22187F360121052C8D /* AppLockController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C42DF337EC3670267028B82 /* AppLockController.swift */; };
+		7DB27D2F2F6EF1B20A96EEED /* SpaceKeyMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4E756731E029D0DEFB46AF /* SpaceKeyMonitor.swift */; };
 		8019A8141CF36967284CFBF8 /* IndraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7D72FE7B6BE835BD0FCB5E /* IndraApp.swift */; };
+		830FAA5228F6B1EDAE1F9C3A /* StatusWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7D0B2D80B4665FC517B44E /* StatusWindow.swift */; };
+		839CA580151C924DFCAB1F7E /* OnboardingMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519FEF609493827E04E97C01 /* OnboardingMetrics.swift */; };
+		83B84E80F7F31619206ACDE4 /* FocusTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D756C26170D120785CE89F8 /* FocusTimer.swift */; };
+		880F55DFA3DFF72DF181EFED /* LyricsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A523DFF2C9A6ABF07F1395 /* LyricsStore.swift */; };
+		884396E3C3383A5DDE338BA2 /* FaceLockPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC369D5EF17C79762B28DC0 /* FaceLockPage.swift */; };
+		8A151BC821265C67D75A895F /* YouTubeProbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B91031845C3CA036F4EB34 /* YouTubeProbe.swift */; };
+		8C619A99D6C413F87013AB78 /* AppLockIdentityCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042F5C7721357F781991FEFB /* AppLockIdentityCache.swift */; };
+		8E0B1E91CC92C486393924D6 /* SpaceChangeGuard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3B31D631441EE5618DB77A /* SpaceChangeGuard.swift */; };
+		91B09E42068604EEC8CB5027 /* SettingsMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B913CF8788E05AB4B58162 /* SettingsMetrics.swift */; };
+		92B07994B1FD39D940D657B8 /* unlockanimation.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 436CCBD94711D08F05F84A96 /* unlockanimation.mp4 */; };
+		95631404D80A6210A1084007 /* OnboardingNotchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3879EF37E799B63A8999A97A /* OnboardingNotchView.swift */; };
+		986F377AF318DECE5C4B26E4 /* BluetoothKeyboard.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36F40E24D77A559F2034548B /* BluetoothKeyboard.gif */; };
+		9891F1C6D96C43EFC6D32098 /* unsuccessfulunlockanimation.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1BF1E6A1925BA44B178E8C88 /* unsuccessfulunlockanimation.mp4 */; };
+		995C7FABA314CFA45BF5066E /* BluetoothEarbuds1.gif in Resources */ = {isa = PBXBuildFile; fileRef = EADCF294C7E4E2D9493E8A83 /* BluetoothEarbuds1.gif */; };
+		995DF9F8DCE45FB2F3BFA8DB /* FaceEnrollmentStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3BA0536DCE0602E864FA46 /* FaceEnrollmentStore.swift */; };
+		99AD0EB51910FDAA6B88AD7C /* DeviceBezelDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE5C3E23DE7B67F67B547A8 /* DeviceBezelDetector.swift */; };
+		9A79892FE83A80CF03DF63E6 /* ArcFaceEmbedder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B1AB5083AE1E52FA394644 /* ArcFaceEmbedder.swift */; };
+		9A9CC37E522EC89F77311CCD /* AnimatedCheckmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9AE64190014BE811254633 /* AnimatedCheckmark.swift */; };
+		9B60977257AB9DDC6D3E0D0D /* AppleStyleHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE65CE3AED955C59897F669 /* AppleStyleHUD.swift */; };
+		9C6E1E17B28460411AA1915F /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89047B70876A1551BB2245E /* CameraManager.swift */; };
+		9E7036F8D50F136E7FAC7236 /* SettingsControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA34958D1A89C4AA0227C72 /* SettingsControls.swift */; };
+		9EE7D696818623F5B2F1B0FB /* SigningDiagnostics.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B97A8DC046C0F56DCC1A1 /* SigningDiagnostics.swift */; };
+		9FC8B10F793F78DD6DFB289F /* SongChangeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4913B9311F2A31103087F037 /* SongChangeCard.swift */; };
+		A02E243B8F2F36FE7000B0E9 /* DeviceScenes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EFE653AAB8F2855EB8B1B4 /* DeviceScenes.swift */; };
+		A1987DB5EF7C64BF99C5C532 /* SystemKeyInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF35FBB81E879E6528D2CA2 /* SystemKeyInterceptor.swift */; };
+		A2B64A8297E4914543A1BA6B /* BluetoothActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0E8B9D706ED5B0C650259E /* BluetoothActivity.swift */; };
+		A2F906A895BC007FB203A20C /* FaceLockHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A68C5310FD7428CF5F3530 /* FaceLockHost.swift */; };
+		A3F0515D094D4EDF70A52A61 /* ClipboardStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B30C40FACA9862AFBF37D37 /* ClipboardStore.swift */; };
+		A446552F0FC7B1033C2DA5AE /* AlbumPhotoBackdrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686F6D66B167AEC975C53226 /* AlbumPhotoBackdrop.swift */; };
+		A4BE8FF79C7F3A0AB5A2ED66 /* SystemAudioCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F620641C18898924924DBC /* SystemAudioCapture.swift */; };
+		A6E2F0F7FD2BC6C78FDC7DD5 /* ProgressiveHeaderBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAAB4E86E29981B6CB073B8 /* ProgressiveHeaderBlur.swift */; };
+		A7F1017637937EBB2E970451 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2F914D59E0C10AEC506186 /* SettingsView.swift */; };
+		A87318F7FDC1BB77ECA28F9B /* AboutPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A419C6634512882DC1077687 /* AboutPage.swift */; };
+		A8830E6D6A316CF0711D6ED6 /* LockMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A7D1E03D1DA48C56E0760F /* LockMonitor.swift */; };
+		A92BA2FD3AFA378C0AA947EB /* AnimationPolish.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D9C6E1252F45BBC117CB17 /* AnimationPolish.swift */; };
+		A9DB3A92E89FE81D812BC09B /* EdgeLightController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C483B5586F963D09CC326634 /* EdgeLightController.swift */; };
+		AA9BB3453C9AE00863389303 /* AnimationPolish2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F708A7AF0D6174B80C2A4EEB /* AnimationPolish2.swift */; };
+		AB735EBE174842B4C91AE6A2 /* IndraThunder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0DCBFCC9C473970C1B8A0BBD /* IndraThunder.mp3 */; };
+		ACB353F71E2AC90771B1068E /* NotchPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7589DD303A2DDB30D7074BD9 /* NotchPanel.swift */; };
+		ACF7162B5C6A947F02EAA5AB /* LockScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D522757E7BB8C1C436F0DC /* LockScreenController.swift */; };
+		AE230013728894CE3E43FECF /* SettingsTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91DD6EEFA6821B91351ADA7 /* SettingsTabBar.swift */; };
+		AE89CD38B4E1040F3EC3FD73 /* SecureFaceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F839B0266E4BB6B0AB8EA8CC /* SecureFaceStore.swift */; };
+		AECC20EE24A32554BE59DC60 /* DatePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B515F6228CC0287E53B864 /* DatePageView.swift */; };
+		B1C9F1728F382AD076FC8305 /* FaceLockSecrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337CB62670BE68C1D598D18F /* FaceLockSecrets.swift */; };
+		B3B1A27A64FA9D957ED91DB0 /* LyricsFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1718717BAA737EEE73E7C37 /* LyricsFont.swift */; };
+		B814D4E0539DE30E59062FD2 /* Net.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E4734203D0F5F5457902FE /* Net.swift */; };
+		B8C4DD65BEFBD4E03DFC83C3 /* MissFajardose-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB742310AC66957C5CB062A6 /* MissFajardose-Regular.ttf */; };
+		B991F944B84C2A533CF7F05F /* BluetoothHomePod.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0C6549CE06A29C7E0C9C1682 /* BluetoothHomePod.gif */; };
+		BB0527533D816B072057DC08 /* MediaModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05668BEB617ABF747D40EA50 /* MediaModels.swift */; };
+		BD974B67E4B1CB81726FD266 /* AppLockFaceReason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A38C683472FFEFBD7A25DA /* AppLockFaceReason.swift */; };
+		BE7D40DC3568C1DE816EC32B /* SettingsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5BB11B59B670CF75264BDD /* SettingsTab.swift */; };
+		BEAC2CFD3EF710C41771E0D3 /* LockVisualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F812FF1F2EF21938D148F358 /* LockVisualizer.swift */; };
+		BFB409590EE993508FA54748 /* NotchPanelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615FD2DC557EEF1B351D8695 /* NotchPanelStyle.swift */; };
+		BFC54047FF97BB4351D255BD /* LogTrim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9970157B75C2840776FF7C6C /* LogTrim.swift */; };
+		C166D345D777043683E78C13 /* AppLockSettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2F97C5E32A1B574B12F836 /* AppLockSettingsPage.swift */; };
+		C33C554B6F9B6467DEEEE005 /* Postmortem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DF9890B3DCACB8D05C5BEA /* Postmortem.swift */; };
+		C3F64F7128273DE2E701D7FD /* LiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778C03A6DF40D0DA1929D8B3 /* LiveActivity.swift */; };
+		C59002AEC0B627B3F0DA395B /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52098C29514C5505416D9FC2 /* PlayerView.swift */; };
+		C88ABB9DF485CD2BE3E251BE /* LyricsMatchingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724681C900949DC1CB418FE3 /* LyricsMatchingTests.swift */; };
+		C8A4E831FF8C27E564DB2FA4 /* EnrollmentSweepWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C63A23796B23343E0CE55A /* EnrollmentSweepWindowController.swift */; };
+		CA99890321DC1F84AE8BE125 /* OnboardingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFE083293BD12F908E4213F /* OnboardingController.swift */; };
+		CAF185957CC7FD92C5DED16C /* AppLockSessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21303A72D91B99BB9F7C93A /* AppLockSessionTests.swift */; };
+		CD439463B1E9C966ED2DFBB5 /* DateStrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1274137FD50A2FB8007067C /* DateStrip.swift */; };
+		D034E503D8DA5C545EC7B989 /* LivenessCues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8486BA6BAAB96650B1DF00 /* LivenessCues.swift */; };
+		D247DD47ED9F6008C8A66B6F /* NotchSkyLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDFE8A985E2AC189407F7C1 /* NotchSkyLight.swift */; };
+		D3CFA21CD87EC2703AA8A922 /* MirrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA393D2C0A6B6480E4AE8BE /* MirrorView.swift */; };
+		D79F6AAA767921B7F175E1F6 /* FrostedBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DA0049F1874EB20DE17117 /* FrostedBackground.swift */; };
+		D88878C41B6C7B4F14EA96DD /* LockSounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00858ABA7D094D2CC0D00437 /* LockSounds.swift */; };
+		D8C8DF08C6FCA94907B2D34B /* CalendarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D5843D4E5AE395D6EE73C9 /* CalendarController.swift */; };
+		DB351BF44A4B3D915F1A205F /* RecognitionSettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACA4D20B5DAF31DC483B4ED /* RecognitionSettingsPage.swift */; };
+		DCF584236FA9CD5EA2354F11 /* AnimationColorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE1C51985A78DFBC1CA0320 /* AnimationColorRow.swift */; };
+		DD7AD49FA7FD54B3B393BD68 /* BluetoothHeadphones.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6EE38FBA4EFFC30DE1FB54C0 /* BluetoothHeadphones.gif */; };
+		DE253BA5D96174350C0F5C06 /* BluetoothEarbuds2.gif in Resources */ = {isa = PBXBuildFile; fileRef = D7597103A96876819247FB8F /* BluetoothEarbuds2.gif */; };
+		DE41F9F411BD04745A208702 /* Stagger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91495670E40C334513006C1 /* Stagger.swift */; };
+		DF3A11CFEFC94A252944CDAF /* FaceLockLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ABDDC05FB8ED6D1E3C719E /* FaceLockLog.swift */; };
+		E07ACF751746F367375D2B23 /* SongIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84EA134F80D60ED000E1C63 /* SongIdentifier.swift */; };
+		E12697959DB730D2FABE52F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C741659615FD5ED3BA28139 /* Assets.xcassets */; };
+		E1874D9A1FA9667DC8EFE361 /* LoopingVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EE01584BDB4F7AAFF4EBC5 /* LoopingVideoView.swift */; };
+		E223AA063A44DB7EA742D2DD /* HeadPoseReading.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA102FA740B28C67AD4381E4 /* HeadPoseReading.swift */; };
+		E486B2779F35488A59696DDD /* SystemNowPlaying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30572B4004448080BF32650D /* SystemNowPlaying.swift */; };
+		E4B589A003A0B8A9F48D1532 /* LivenessScoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332CB7AC72351D717A7AE96E /* LivenessScoring.swift */; };
+		E4FC04B438A69564B503B6E3 /* FaceLabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D2A56F162E90AA1E646112 /* FaceLabController.swift */; };
+		E62CEBB8485B9FF2CD4B02E8 /* SafeNumbersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2F7D14D1B354DF6BCBB747 /* SafeNumbersTests.swift */; };
+		E658FD502F14FB081A271048 /* EdgeLightKnob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5E0A836EFFFEEFEAC3EEA0 /* EdgeLightKnob.swift */; };
+		E6B2FD882075934ED8AEBFA2 /* LockSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA19C08C49FD8C20C1B5B2B /* LockSpace.swift */; };
+		E6CC19FDADA4E9B46213FF78 /* FaceLockSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F985CAD49FE725547AC9B3A2 /* FaceLockSettings.swift */; };
+		E7FAFE5FB780B2DFBFC513DA /* BlurTuning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B1E2FEB46042765C0F2F1B /* BlurTuning.swift */; };
+		E886D976537635817C00A319 /* UpdateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5667A5AC9E45E4B034B56ADC /* UpdateManager.swift */; };
+		E8D6A217EF835CF5060D1169 /* LockHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916017EB474D37A4D5880C1B /* LockHUD.swift */; };
+		E9F8C45176CB35511347C838 /* GeometryLiveness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9177C9AE78AC897B63DC8084 /* GeometryLiveness.swift */; };
+		EA24569E47CC62D5B24551A8 /* LockEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240E790CA7D63D1CC6E41AEC /* LockEffects.swift */; };
+		EAB277800DA6D894374E2CE3 /* NotchOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86744905C1A7E020FA7276F6 /* NotchOverlayView.swift */; };
+		ECFC2749805589BB45A44E3A /* FaceScanWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95888AEB5D66A8028E28B923 /* FaceScanWindowController.swift */; };
+		ED51F01E0B62E6802324B164 /* SessionLockButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B07D9CDEC646ED7CB78E7AB /* SessionLockButton.swift */; };
+		EE44E45ECB4B9E9C44A2040C /* CustomColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C941CACD96EE769281AA644 /* CustomColorPicker.swift */; };
+		EF23FB924CFDBE17F0227149 /* FaceUnlockCoordinator+AppLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494FF0098FBB1DE82D9131D8 /* FaceUnlockCoordinator+AppLock.swift */; };
+		EF2C6119387037AE692FE3CF /* FaceLabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDFAE3D81C432C14B0A2A5C /* FaceLabView.swift */; };
+		EF3B850ADE8D9715603285A9 /* OnboardingControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CCE903CA41CAF2581FB82C /* OnboardingControls.swift */; };
+		EFC42DB749DB10FF0FC55CBA /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2178E464D5C87E18C378E6 /* KeychainManager.swift */; };
+		F0C12AC5A8EE7BCD132D8CF0 /* WeatherLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E066786C230194BF0F186F /* WeatherLocator.swift */; };
+		F20855DDCBC70F2A14839E6A /* NotchMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F68C2454F101716075190DF /* NotchMetrics.swift */; };
+		F2B7362BBBEBC4E2E59412E4 /* FaceScanNotchShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2738D1428DEE9F038376C89A /* FaceScanNotchShape.swift */; };
+		F3B4B6950B044F1C7C6F2387 /* FaceLockGate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC20D9654F8A1B56887C385A /* FaceLockGate.swift */; };
+		F5DA47D25146648B0CDD514D /* SnapshotBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5890F2CA204E95CD0CBA3E /* SnapshotBlur.swift */; };
+		F68F61076C0F762D24B2AC40 /* FaceDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33112DCEFD24FB150D742B92 /* FaceDetector.swift */; };
+		F814C477AE2A3C62F8346A2A /* RemindersStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0A9D428290E2135789C592 /* RemindersStore.swift */; };
+		F838EA13AD5E35BFEBB3B315 /* TodoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3720D401F706ABB3A7F2257 /* TodoStore.swift */; };
+		F979FDA7D3A916D9FA18F6E1 /* GeneralSettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B74BBF652CF752248153FE /* GeneralSettingsPage.swift */; };
+		F984CB1EB4F14882E8027A3A /* ScanAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBB08A89BB87867A66975B8 /* ScanAnimationView.swift */; };
+		F998541F837D01DEBB51E0D1 /* ColoredUnlockStill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFD7DE676D86413B374C21 /* ColoredUnlockStill.swift */; };
+		FA446F5F035DF548EEEC5282 /* ZenSpaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E52F2F56154959F5484954C /* ZenSpaceView.swift */; };
+		FA5052730298045B3A071205 /* ArtworkPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93434AEEB0D95A8426CE6991 /* ArtworkPalette.swift */; };
+		FAAFB316DCF696B0ABAF16ED /* NotchMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E2F8EB16CEE028CD960F2E /* NotchMotion.swift */; };
+		FC521A70AE4F9EDF260238CA /* ScreenAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2EBE9CF8834DA43E3563D6 /* ScreenAccess.swift */; };
+		FC66D6794921E95D30D217C5 /* DesktopCopyGuard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29301DEF99A60D37EA878C97 /* DesktopCopyGuard.swift */; };
+		FEF1968A85595F2BF19F054E /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178A08CA262FF92D5E44964C /* Preferences.swift */; };
+		FF38CB99667DCF08453117C7 /* FaceLockEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47421B804640D42238B72D9A /* FaceLockEnvironment.swift */; };
+		FF977A6F48519D0874D37517 /* FileSharing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DA253B3650A1E2347D1940 /* FileSharing.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		B2B9325052630C71F4C69D99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F84E26BEF7CA537BB78358D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA121DBEB34B85D5B5F3432B;
+			remoteInfo = Indra;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		00858ABA7D094D2CC0D00437 /* LockSounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockSounds.swift; sourceTree = "<group>"; };
+		00C817240B4189213F994EFA /* DuoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuoView.swift; sourceTree = "<group>"; };
+		021B1466332315895C990E62 /* GlareCue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlareCue.swift; sourceTree = "<group>"; };
+		042F5C7721357F781991FEFB /* AppLockIdentityCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLockIdentityCache.swift; sourceTree = "<group>"; };
+		053F92B9880007E2E14873EC /* IntroAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroAnimation.swift; sourceTree = "<group>"; };
+		05668BEB617ABF747D40EA50 /* MediaModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaModels.swift; sourceTree = "<group>"; };
+		08DA0049F1874EB20DE17117 /* FrostedBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrostedBackground.swift; sourceTree = "<group>"; };
+		09A68C5310FD7428CF5F3530 /* FaceLockHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceLockHost.swift; sourceTree = "<group>"; };
+		0B5900729735AFDB96EC3476 /* TrayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrayView.swift; sourceTree = "<group>"; };
+		0C6549CE06A29C7E0C9C1682 /* BluetoothHomePod.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BluetoothHomePod.gif; sourceTree = "<group>"; };
+		0DCBFCC9C473970C1B8A0BBD /* IndraThunder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = IndraThunder.mp3; sourceTree = "<group>"; };
+		0F4CFBD3FB1D81BC18810CCF /* NotchState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchState.swift; sourceTree = "<group>"; };
+		1008F1F91A4D55F2D5BD16E5 /* LivenessFeatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivenessFeatures.swift; sourceTree = "<group>"; };
+		11927F119A869A6180FEE0F3 /* YouthShandey.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = YouthShandey.otf; sourceTree = "<group>"; };
+		11B6A46CD679143E5F0785DE /* UpdateNotice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateNotice.swift; sourceTree = "<group>"; };
+		1361076A4AACC0FD28695767 /* DropArchive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropArchive.swift; sourceTree = "<group>"; };
+		14178C92AD8C74E3B15504A5 /* SecureCredentialManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureCredentialManager.swift; sourceTree = "<group>"; };
+		14A7D1E03D1DA48C56E0760F /* LockMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockMonitor.swift; sourceTree = "<group>"; };
+		151C2493E6D2BB614A86C6AF /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
+		15D693BBC3111FFD2B982881 /* AnimationColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationColor.swift; sourceTree = "<group>"; };
+		174505825D76DCD2D0650B19 /* Credits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credits.swift; sourceTree = "<group>"; };
+		178A08CA262FF92D5E44964C /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		17B1B9A4127DEF835B890C4B /* SensoryMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensoryMonitor.swift; sourceTree = "<group>"; };
+		18ABDDC05FB8ED6D1E3C719E /* FaceLockLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceLockLog.swift; sourceTree = "<group>"; };
+		19DDB232BE04CCE9F9239F39 /* VariableBlur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableBlur.swift; sourceTree = "<group>"; };
+		1B68745AE101E881FAAD3093 /* FaceLockTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceLockTheme.swift; sourceTree = "<group>"; };
+		1BF1E6A1925BA44B178E8C88 /* unsuccessfulunlockanimation.mp4 */ = {isa = PBXFileReference; path = unsuccessfulunlockanimation.mp4; sourceTree = "<group>"; };
+		1C941CACD96EE769281AA644 /* CustomColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColorPicker.swift; sourceTree = "<group>"; };
+		1D5BB11B59B670CF75264BDD /* SettingsTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTab.swift; sourceTree = "<group>"; };
+		1D756C26170D120785CE89F8 /* FocusTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTimer.swift; sourceTree = "<group>"; };
+		1D7D0B2D80B4665FC517B44E /* StatusWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusWindow.swift; sourceTree = "<group>"; };
+		20CFD7DE676D86413B374C21 /* ColoredUnlockStill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoredUnlockStill.swift; sourceTree = "<group>"; };
+		240E790CA7D63D1CC6E41AEC /* LockEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockEffects.swift; sourceTree = "<group>"; };
+		2738D1428DEE9F038376C89A /* FaceScanNotchShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceScanNotchShape.swift; sourceTree = "<group>"; };
+		27ABCC19D0EE6ED8706AF7C7 /* SpotifyWebAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyWebAPI.swift; sourceTree = "<group>"; };
+		27C63A23796B23343E0CE55A /* EnrollmentSweepWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnrollmentSweepWindowController.swift; sourceTree = "<group>"; };
+		27D522757E7BB8C1C436F0DC /* LockScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreenController.swift; sourceTree = "<group>"; };
+		2861F84EF4D0F48179D080B6 /* BluetoothWatch.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BluetoothWatch.gif; sourceTree = "<group>"; };
+		29301DEF99A60D37EA878C97 /* DesktopCopyGuard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesktopCopyGuard.swift; sourceTree = "<group>"; };
+		2A0A9D428290E2135789C592 /* RemindersStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersStore.swift; sourceTree = "<group>"; };
+		2A8486BA6BAAB96650B1DF00 /* LivenessCues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivenessCues.swift; sourceTree = "<group>"; };
+		2ACA4D20B5DAF31DC483B4ED /* RecognitionSettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionSettingsPage.swift; sourceTree = "<group>"; };
+		2B16B3DF0FD796960DD73002 /* BluetoothWatchSheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BluetoothWatchSheet.png; sourceTree = "<group>"; };
+		2C2F914D59E0C10AEC506186 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		2FE5C3E23DE7B67F67B547A8 /* DeviceBezelDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceBezelDetector.swift; sourceTree = "<group>"; };
+		30572B4004448080BF32650D /* SystemNowPlaying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemNowPlaying.swift; sourceTree = "<group>"; };
+		30B74BBF652CF752248153FE /* GeneralSettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralSettingsPage.swift; sourceTree = "<group>"; };
+		33112DCEFD24FB150D742B92 /* FaceDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetector.swift; sourceTree = "<group>"; };
+		332CB7AC72351D717A7AE96E /* LivenessScoring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivenessScoring.swift; sourceTree = "<group>"; };
+		337CB62670BE68C1D598D18F /* FaceLockSecrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceLockSecrets.swift; sourceTree = "<group>"; };
+		33BFEBD46050A80D0CB95E8A /* FaceScanWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceScanWindow.swift; sourceTree = "<group>"; };
+		36349EF43BB64E5D4BF3E6FF /* Indra-Standard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Indra-Standard.entitlements"; sourceTree = "<group>"; };
+		36F40E24D77A559F2034548B /* BluetoothKeyboard.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BluetoothKeyboard.gif; sourceTree = "<group>"; };
+		37DF9890B3DCACB8D05C5BEA /* Postmortem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Postmortem.swift; sourceTree = "<group>"; };
+		3879EF37E799B63A8999A97A /* OnboardingNotchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingNotchView.swift; sourceTree = "<group>"; };
+		38B1AB5083AE1E52FA394644 /* ArcFaceEmbedder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcFaceEmbedder.swift; sourceTree = "<group>"; };
+		3B01E802EB0FAECE9DCE365E /* DeveloperAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperAccess.swift; sourceTree = "<group>"; };
+		3BD9B7FCC2C88493691164A8 /* IdleActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdleActivity.swift; sourceTree = "<group>"; };
+		3C3BA0536DCE0602E864FA46 /* FaceEnrollmentStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceEnrollmentStore.swift; sourceTree = "<group>"; };
+		40448F0C0A9135DB3D6F9543 /* NotchGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchGeometry.swift; sourceTree = "<group>"; };
+		436CCBD94711D08F05F84A96 /* unlockanimation.mp4 */ = {isa = PBXFileReference; path = unlockanimation.mp4; sourceTree = "<group>"; };
+		4382A239B7963BD3A45F045C /* NotchOverlayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchOverlayController.swift; sourceTree = "<group>"; };
+		43CCE903CA41CAF2581FB82C /* OnboardingControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingControls.swift; sourceTree = "<group>"; };
+		47421B804640D42238B72D9A /* FaceLockEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceLockEnvironment.swift; sourceTree = "<group>"; };
+		4785292789316B1026A78F93 /* AxisLockedScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxisLockedScroll.swift; sourceTree = "<group>"; };
+		4913B9311F2A31103087F037 /* SongChangeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongChangeCard.swift; sourceTree = "<group>"; };
+		494FF0098FBB1DE82D9131D8 /* FaceUnlockCoordinator+AppLock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FaceUnlockCoordinator+AppLock.swift"; sourceTree = "<group>"; };
+		494FF0AF3DE5AB4CB3AC9CE4 /* HapticLab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticLab.swift; sourceTree = "<group>"; };
+		4B07D9CDEC646ED7CB78E7AB /* SessionLockButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionLockButton.swift; sourceTree = "<group>"; };
+		4C40B9D597FD27E5F7132A9D /* NowPlayingHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingHelper.swift; sourceTree = "<group>"; };
+		4C42DF337EC3670267028B82 /* AppLockController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLockController.swift; sourceTree = "<group>"; };
+		505526313C248C2D8555B07D /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		506F858189918FBD928C0EFF /* FaceRecognitionPipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceRecognitionPipeline.swift; sourceTree = "<group>"; };
+		519FEF609493827E04E97C01 /* OnboardingMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingMetrics.swift; sourceTree = "<group>"; };
+		52098C29514C5505416D9FC2 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		54A613347C477F1C360A91D2 /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		54E7461F4CBB0FC6E487B0C7 /* Pressable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pressable.swift; sourceTree = "<group>"; };
+		55C9B7117EA480824B153521 /* MediaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaController.swift; sourceTree = "<group>"; };
+		5667A5AC9E45E4B034B56ADC /* UpdateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateManager.swift; sourceTree = "<group>"; };
+		570EE26466B0B5A721893536 /* DownlineHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownlineHUD.swift; sourceTree = "<group>"; };
 		59813BF3F308590D0D4065A3 /* Indra.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Indra.entitlements; sourceTree = "<group>"; };
+		5C2178E464D5C87E18C378E6 /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		5C2ED08B928912795926637B /* CameraSettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSettingsPage.swift; sourceTree = "<group>"; };
+		5C2F97C5E32A1B574B12F836 /* AppLockSettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLockSettingsPage.swift; sourceTree = "<group>"; };
+		5C741659615FD5ED3BA28139 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CBC539B0E073FC0B24D91F6 /* NotchContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchContextMenu.swift; sourceTree = "<group>"; };
+		5E2A1997026AF6B45E56E8DF /* CursorCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorCenter.swift; sourceTree = "<group>"; };
+		5F68C2454F101716075190DF /* NotchMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchMetrics.swift; sourceTree = "<group>"; };
+		5FF969E53D1EDCE09139EFA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60783B53B8FD20F19ECAEE08 /* EnrollmentDirectionSweep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnrollmentDirectionSweep.swift; sourceTree = "<group>"; };
+		60C62FD011E893599B0D8991 /* FaceEmbedder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceEmbedder.swift; sourceTree = "<group>"; };
+		60EBED01A5038FE3428B4735 /* DropFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropFiles.swift; sourceTree = "<group>"; };
+		615FD2DC557EEF1B351D8695 /* NotchPanelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchPanelStyle.swift; sourceTree = "<group>"; };
+		64708492C73F83BACC1B65E5 /* BluetoothHomePodSheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BluetoothHomePodSheet.png; sourceTree = "<group>"; };
+		6479017E70662F83351BCE0B /* RingLightGuard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingLightGuard.swift; sourceTree = "<group>"; };
+		666968FB0F785BA77F5E5BFF /* SessionAutoLocker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionAutoLocker.swift; sourceTree = "<group>"; };
+		6678EC06A6C972F71FEB9BC8 /* RingLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingLight.swift; sourceTree = "<group>"; };
+		66C20B66D66604333B157F30 /* InlineHUDPercent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineHUDPercent.swift; sourceTree = "<group>"; };
+		686F6D66B167AEC975C53226 /* AlbumPhotoBackdrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumPhotoBackdrop.swift; sourceTree = "<group>"; };
+		68A38C683472FFEFBD7A25DA /* AppLockFaceReason.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLockFaceReason.swift; sourceTree = "<group>"; };
+		68DF2A6B565E0BBA10C49862 /* LockCursor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockCursor.swift; sourceTree = "<group>"; };
+		69B0D24FCB4FA934AAAE35F5 /* TipsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsPage.swift; sourceTree = "<group>"; };
+		6A5E0A836EFFFEEFEAC3EEA0 /* EdgeLightKnob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeLightKnob.swift; sourceTree = "<group>"; };
+		6AA34BCE505EE288B18A475E /* NotchShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchShape.swift; sourceTree = "<group>"; };
+		6BFC94C6CD050DF9B7B4E6D3 /* RemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersView.swift; sourceTree = "<group>"; };
+		6C7A2B12B13C450E836ABD03 /* KeystrokeInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeystrokeInjector.swift; sourceTree = "<group>"; };
+		6DB00EAC65A0BB0D04C36367 /* ArcFace.mlpackage */ = {isa = PBXFileReference; path = ArcFace.mlpackage; sourceTree = "<group>"; };
+		6E5ED736FA8152A0DA4F336B /* BluetoothIMac.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BluetoothIMac.gif; sourceTree = "<group>"; };
+		6E851DD68119B9FA70F84BFC /* BluetoothIPad.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BluetoothIPad.gif; sourceTree = "<group>"; };
+		6EE38FBA4EFFC30DE1FB54C0 /* BluetoothHeadphones.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BluetoothHeadphones.gif; sourceTree = "<group>"; };
+		6FEC1C4CD71F24A0760530F1 /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		71035DE8C02D3F64CE06A48D /* IndraIntro.mp4 */ = {isa = PBXFileReference; path = IndraIntro.mp4; sourceTree = "<group>"; };
+		7180F9017659376E05666717 /* PasswordSettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordSettingsPage.swift; sourceTree = "<group>"; };
+		71EFE653AAB8F2855EB8B1B4 /* DeviceScenes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceScenes.swift; sourceTree = "<group>"; };
+		724681C900949DC1CB418FE3 /* LyricsMatchingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricsMatchingTests.swift; sourceTree = "<group>"; };
+		72D5843D4E5AE395D6EE73C9 /* CalendarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarController.swift; sourceTree = "<group>"; };
+		7589DD303A2DDB30D7074BD9 /* NotchPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchPanel.swift; sourceTree = "<group>"; };
+		763A8107857003CEF7C97292 /* AppLockOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLockOverlay.swift; sourceTree = "<group>"; };
+		770971196FEBCA51F6F73E94 /* DragPasteboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragPasteboard.swift; sourceTree = "<group>"; };
+		778C03A6DF40D0DA1929D8B3 /* LiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivity.swift; sourceTree = "<group>"; };
+		79B1E2FEB46042765C0F2F1B /* BlurTuning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurTuning.swift; sourceTree = "<group>"; };
+		79C31DC5C604B77E05B43CC1 /* TaskAlarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAlarm.swift; sourceTree = "<group>"; };
+		7B30C40FACA9862AFBF37D37 /* ClipboardStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardStore.swift; sourceTree = "<group>"; };
+		7B4E756731E029D0DEFB46AF /* SpaceKeyMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceKeyMonitor.swift; sourceTree = "<group>"; };
+		7BD019D7770A70F9BA554A8A /* AccentColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccentColor.swift; sourceTree = "<group>"; };
+		7DDFAE3D81C432C14B0A2A5C /* FaceLabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceLabView.swift; sourceTree = "<group>"; };
+		7E52F2F56154959F5484954C /* ZenSpaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenSpaceView.swift; sourceTree = "<group>"; };
+		7FE1C51985A78DFBC1CA0320 /* AnimationColorRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationColorRow.swift; sourceTree = "<group>"; };
+		81998F87F158AA2EDDDD8E60 /* AppLockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLockView.swift; sourceTree = "<group>"; };
+		85B91031845C3CA036F4EB34 /* YouTubeProbe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeProbe.swift; sourceTree = "<group>"; };
+		85C1A24F9DB6B6C110296EB6 /* GlareCueExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlareCueExtractor.swift; sourceTree = "<group>"; };
+		86744905C1A7E020FA7276F6 /* NotchOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchOverlayView.swift; sourceTree = "<group>"; };
+		8692ECB92563E479CAA98D42 /* BluetoothMouse.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BluetoothMouse.gif; sourceTree = "<group>"; };
+		87299A5A1DCB2045B75537E1 /* LockScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreenView.swift; sourceTree = "<group>"; };
+		89F2D4F3D5F088F2A7019496 /* MainWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowView.swift; sourceTree = "<group>"; };
+		8B5110A12C1AAD2A080BC73B /* StickySpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickySpace.swift; sourceTree = "<group>"; };
+		8B5890F2CA204E95CD0CBA3E /* SnapshotBlur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotBlur.swift; sourceTree = "<group>"; };
+		8C7044AD311EC378552BAA45 /* POCController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POCController.swift; sourceTree = "<group>"; };
+		8CABE136A91D54316518CD86 /* BackgroundJobs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundJobs.swift; sourceTree = "<group>"; };
+		8DA34958D1A89C4AA0227C72 /* SettingsControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsControls.swift; sourceTree = "<group>"; };
+		91426042173BE1208141634E /* SharedCI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedCI.swift; sourceTree = "<group>"; };
+		916017EB474D37A4D5880C1B /* LockHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockHUD.swift; sourceTree = "<group>"; };
+		9177C9AE78AC897B63DC8084 /* GeometryLiveness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryLiveness.swift; sourceTree = "<group>"; };
+		91791AD5EF62549A7C3D21BE /* SoftSound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftSound.swift; sourceTree = "<group>"; };
+		92EE01584BDB4F7AAFF4EBC5 /* LoopingVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopingVideoView.swift; sourceTree = "<group>"; };
+		93081B1B27A354887E2CAD8B /* ScrollEdgeFade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollEdgeFade.swift; sourceTree = "<group>"; };
+		93434AEEB0D95A8426CE6991 /* ArtworkPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkPalette.swift; sourceTree = "<group>"; };
+		947A7D8069EF1289C0D40EA7 /* OnboardingStepViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingStepViews.swift; sourceTree = "<group>"; };
+		95888AEB5D66A8028E28B923 /* FaceScanWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceScanWindowController.swift; sourceTree = "<group>"; };
+		970027F0E834417F16E44526 /* MenuBarIconTinter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarIconTinter.swift; sourceTree = "<group>"; };
+		98A79FF068F1CA92BA6C0ED2 /* FaceUnlockCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceUnlockCoordinator.swift; sourceTree = "<group>"; };
+		9970157B75C2840776FF7C6C /* LogTrim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogTrim.swift; sourceTree = "<group>"; };
+		9B47E01186C3DD8B2EE66FC0 /* LyricsRomanizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricsRomanizer.swift; sourceTree = "<group>"; };
+		9CA19C08C49FD8C20C1B5B2B /* LockSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockSpace.swift; sourceTree = "<group>"; };
+		9D68B59805BE31A88D2383ED /* SafeNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeNumbers.swift; sourceTree = "<group>"; };
+		9D89D3E5EDA61693C3A9C002 /* ClockStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockStyles.swift; sourceTree = "<group>"; };
+		9E3D0AB1D30BDF1BB101C87B /* IndraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1041F94FD315CB7EF94C70C /* AppLockSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLockSession.swift; sourceTree = "<group>"; };
+		A159352144FDB5C37DFB18EA /* BluetoothMacBook.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BluetoothMacBook.gif; sourceTree = "<group>"; };
+		A16E86202C8753F866DA2B63 /* FaceLockMenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceLockMenuBar.swift; sourceTree = "<group>"; };
+		A1E2F8EB16CEE028CD960F2E /* NotchMotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchMotion.swift; sourceTree = "<group>"; };
+		A419C6634512882DC1077687 /* AboutPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutPage.swift; sourceTree = "<group>"; };
+		A683621190BBC51E708F1375 /* IndraWelcome.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = IndraWelcome.wav; sourceTree = "<group>"; };
+		A89047B70876A1551BB2245E /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		A8D9C6E1252F45BBC117CB17 /* AnimationPolish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationPolish.swift; sourceTree = "<group>"; };
+		A8E066786C230194BF0F186F /* WeatherLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherLocator.swift; sourceTree = "<group>"; };
+		AA102FA740B28C67AD4381E4 /* HeadPoseReading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadPoseReading.swift; sourceTree = "<group>"; };
+		AB3B31D631441EE5618DB77A /* SpaceChangeGuard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceChangeGuard.swift; sourceTree = "<group>"; };
+		AB742310AC66957C5CB062A6 /* MissFajardose-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MissFajardose-Regular.ttf"; sourceTree = "<group>"; };
+		ABC01A7A3971BF2D2492D1B5 /* BluetoothIPhone.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BluetoothIPhone.gif; sourceTree = "<group>"; };
+		AF43E2B9FFCD516EE0018B8A /* DropZone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropZone.swift; sourceTree = "<group>"; };
+		AF9AE64190014BE811254633 /* AnimatedCheckmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedCheckmark.swift; sourceTree = "<group>"; };
+		AFDD213E48D4DFC2A5A1ACF2 /* MinimalUnlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimalUnlockView.swift; sourceTree = "<group>"; };
+		B0D2A56F162E90AA1E646112 /* FaceLabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceLabController.swift; sourceTree = "<group>"; };
+		B290FB3FDC40B2F62A68A1FB /* TrackpadActuator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackpadActuator.swift; sourceTree = "<group>"; };
+		B3251621C1C4A742CC6EAFA2 /* IslandSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandSettings.swift; sourceTree = "<group>"; };
+		B4A523DFF2C9A6ABF07F1395 /* LyricsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricsStore.swift; sourceTree = "<group>"; };
+		B4F7BF0FBA2B138F5C412691 /* QueueDock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueDock.swift; sourceTree = "<group>"; };
+		B5AAE074DFC71D96C5990A85 /* FocusEdgeOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusEdgeOverlay.swift; sourceTree = "<group>"; };
+		B6B515F6228CC0287E53B864 /* DatePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePageView.swift; sourceTree = "<group>"; };
+		B709E1EFDAA1CE4B7D5D308F /* LandmarkGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkGeometry.swift; sourceTree = "<group>"; };
+		B890FEFE1FE1840D1C32FB7E /* MotionArtwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionArtwork.swift; sourceTree = "<group>"; };
+		B8FC8EE2E46A9C47F34EEB62 /* AppPresence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPresence.swift; sourceTree = "<group>"; };
+		B91DD6EEFA6821B91351ADA7 /* SettingsTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTabBar.swift; sourceTree = "<group>"; };
+		B98B2C09E47BC04AE056C855 /* VinylPod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VinylPod.swift; sourceTree = "<group>"; };
+		BBDFE8A985E2AC189407F7C1 /* NotchSkyLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchSkyLight.swift; sourceTree = "<group>"; };
+		BEC369D5EF17C79762B28DC0 /* FaceLockPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceLockPage.swift; sourceTree = "<group>"; };
+		BF2B97A8DC046C0F56DCC1A1 /* SigningDiagnostics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigningDiagnostics.swift; sourceTree = "<group>"; };
 		BF7D72FE7B6BE835BD0FCB5E /* IndraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndraApp.swift; sourceTree = "<group>"; };
+		C1274137FD50A2FB8007067C /* DateStrip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateStrip.swift; sourceTree = "<group>"; };
+		C14414204C056CB96E8A76AC /* BackdropPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackdropPanel.swift; sourceTree = "<group>"; };
+		C17F84FADC31A3639365C856 /* FreezeTrail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreezeTrail.swift; sourceTree = "<group>"; };
+		C21303A72D91B99BB9F7C93A /* AppLockSessionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLockSessionTests.swift; sourceTree = "<group>"; };
+		C483B5586F963D09CC326634 /* EdgeLightController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeLightController.swift; sourceTree = "<group>"; };
 		C4D52A2314E1F92A436F5243 /* Indra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Indra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5B913CF8788E05AB4B58162 /* SettingsMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsMetrics.swift; sourceTree = "<group>"; };
+		C71218A9F9A7AC412519117B /* EnrollmentRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnrollmentRingView.swift; sourceTree = "<group>"; };
+		C7E4734203D0F5F5457902FE /* Net.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Net.swift; sourceTree = "<group>"; };
+		C91495670E40C334513006C1 /* Stagger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stagger.swift; sourceTree = "<group>"; };
+		C9C6C9F574D30AFC859FE9C3 /* Trace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trace.swift; sourceTree = "<group>"; };
+		CA2F7D14D1B354DF6BCBB747 /* SafeNumbersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeNumbersTests.swift; sourceTree = "<group>"; };
+		CB10235A9215F4AA1CFDD997 /* Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
+		CFAAB4E86E29981B6CB073B8 /* ProgressiveHeaderBlur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressiveHeaderBlur.swift; sourceTree = "<group>"; };
+		D0F620641C18898924924DBC /* SystemAudioCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemAudioCapture.swift; sourceTree = "<group>"; };
+		D1718717BAA737EEE73E7C37 /* LyricsFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricsFont.swift; sourceTree = "<group>"; };
+		D5E91BE7783EAB9B2B2D4692 /* FaceAligner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceAligner.swift; sourceTree = "<group>"; };
+		D7597103A96876819247FB8F /* BluetoothEarbuds2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BluetoothEarbuds2.gif; sourceTree = "<group>"; };
+		D7D0D73692002DE3E46ABE2E /* LivenessAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivenessAnalyzer.swift; sourceTree = "<group>"; };
+		D84EA134F80D60ED000E1C63 /* SongIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongIdentifier.swift; sourceTree = "<group>"; };
+		DB638BC5275DB88A5F793A17 /* TrayStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrayStore.swift; sourceTree = "<group>"; };
+		DE0D82FB98663A2FA2FF9C5B /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		DF2D5A548AF733542A53C694 /* YourFaceSettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourFaceSettingsPage.swift; sourceTree = "<group>"; };
+		E3720D401F706ABB3A7F2257 /* TodoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoStore.swift; sourceTree = "<group>"; };
+		E39F10063F4F6BC86E5EEA24 /* CameraDeviceCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraDeviceCatalog.swift; sourceTree = "<group>"; };
+		E5C8CA1B31D69164586E18F9 /* HealthMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthMonitor.swift; sourceTree = "<group>"; };
+		E6D7D9735823AA827C45665D /* NotchRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchRootView.swift; sourceTree = "<group>"; };
+		E6E20C7C12066CAAB1D522B2 /* SettingsWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsWindowController.swift; sourceTree = "<group>"; };
+		E72E55AB34E8F4D1DED184C4 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		E769E8686DC86C884C3737E1 /* LaunchAtLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAtLogin.swift; sourceTree = "<group>"; };
+		E7DA253B3650A1E2347D1940 /* FileSharing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSharing.swift; sourceTree = "<group>"; };
+		E809D769081993C80130DAE3 /* Visualizers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visualizers.swift; sourceTree = "<group>"; };
+		E8FD74EA2842C2A4B7C124B6 /* Indra-FullAccess.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Indra-FullAccess.entitlements"; sourceTree = "<group>"; };
+		EADCF294C7E4E2D9493E8A83 /* BluetoothEarbuds1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BluetoothEarbuds1.gif; sourceTree = "<group>"; };
+		EC0E8B9D706ED5B0C650259E /* BluetoothActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothActivity.swift; sourceTree = "<group>"; };
+		EC20D9654F8A1B56887C385A /* FaceLockGate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceLockGate.swift; sourceTree = "<group>"; };
+		ECBB08A89BB87867A66975B8 /* ScanAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanAnimationView.swift; sourceTree = "<group>"; };
+		EDFE083293BD12F908E4213F /* OnboardingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingController.swift; sourceTree = "<group>"; };
+		EE391025786B2BA5A36C58E6 /* NotchWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchWindowController.swift; sourceTree = "<group>"; };
+		EF2EBE9CF8834DA43E3563D6 /* ScreenAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenAccess.swift; sourceTree = "<group>"; };
+		F047BD25B4ADDEF87CF23515 /* Diagnostics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diagnostics.swift; sourceTree = "<group>"; };
+		F157A6BE4FD00EF7DD8B99FD /* unlockstatic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unlockstatic.png; sourceTree = "<group>"; };
+		F27DAA7F0B2DFFDC1C84065A /* WelcomeActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeActivity.swift; sourceTree = "<group>"; };
+		F462504CC9A4835CE3D0752B /* WeatherController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherController.swift; sourceTree = "<group>"; };
+		F708A7AF0D6174B80C2A4EEB /* AnimationPolish2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationPolish2.swift; sourceTree = "<group>"; };
+		F747E6B7C2B6003A856EA7AB /* TaskPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPopup.swift; sourceTree = "<group>"; };
+		F812FF1F2EF21938D148F358 /* LockVisualizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockVisualizer.swift; sourceTree = "<group>"; };
+		F839B0266E4BB6B0AB8EA8CC /* SecureFaceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureFaceStore.swift; sourceTree = "<group>"; };
+		F985CAD49FE725547AC9B3A2 /* FaceLockSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceLockSettings.swift; sourceTree = "<group>"; };
+		F9EA433389B5DAEB69B6C0DF /* MirrorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MirrorController.swift; sourceTree = "<group>"; };
+		FB614BBCD61A3F792DE11999 /* NetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetTests.swift; sourceTree = "<group>"; };
+		FCE65CE3AED955C59897F669 /* AppleStyleHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleStyleHUD.swift; sourceTree = "<group>"; };
+		FCF35FBB81E879E6528D2CA2 /* SystemKeyInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemKeyInterceptor.swift; sourceTree = "<group>"; };
+		FDA393D2C0A6B6480E4AE8BE /* MirrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MirrorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		0061B069E671627BFE52FE6C /* Notch */ = {
+			isa = PBXGroup;
+			children = (
+				4785292789316B1026A78F93 /* AxisLockedScroll.swift */,
+				C14414204C056CB96E8A76AC /* BackdropPanel.swift */,
+				79B1E2FEB46042765C0F2F1B /* BlurTuning.swift */,
+				B5AAE074DFC71D96C5990A85 /* FocusEdgeOverlay.swift */,
+				08DA0049F1874EB20DE17117 /* FrostedBackground.swift */,
+				B3251621C1C4A742CC6EAFA2 /* IslandSettings.swift */,
+				5CBC539B0E073FC0B24D91F6 /* NotchContextMenu.swift */,
+				5F68C2454F101716075190DF /* NotchMetrics.swift */,
+				A1E2F8EB16CEE028CD960F2E /* NotchMotion.swift */,
+				7589DD303A2DDB30D7074BD9 /* NotchPanel.swift */,
+				E6D7D9735823AA827C45665D /* NotchRootView.swift */,
+				6AA34BCE505EE288B18A475E /* NotchShape.swift */,
+				0F4CFBD3FB1D81BC18810CCF /* NotchState.swift */,
+				EE391025786B2BA5A36C58E6 /* NotchWindowController.swift */,
+				93081B1B27A354887E2CAD8B /* ScrollEdgeFade.swift */,
+				8B5890F2CA204E95CD0CBA3E /* SnapshotBlur.swift */,
+				AB3B31D631441EE5618DB77A /* SpaceChangeGuard.swift */,
+				8B5110A12C1AAD2A080BC73B /* StickySpace.swift */,
+				19DDB232BE04CCE9F9239F39 /* VariableBlur.swift */,
+			);
+			path = Notch;
+			sourceTree = "<group>";
+		};
+		011D91F383CD8137F52FA4F1 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				436CCBD94711D08F05F84A96 /* unlockanimation.mp4 */,
+				F157A6BE4FD00EF7DD8B99FD /* unlockstatic.png */,
+				1BF1E6A1925BA44B178E8C88 /* unsuccessfulunlockanimation.mp4 */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		0C48BE3660BDDF7A69464E35 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				5C2ED08B928912795926637B /* CameraSettingsPage.swift */,
+				30B74BBF652CF752248153FE /* GeneralSettingsPage.swift */,
+				7180F9017659376E05666717 /* PasswordSettingsPage.swift */,
+				2ACA4D20B5DAF31DC483B4ED /* RecognitionSettingsPage.swift */,
+				DF2D5A548AF733542A53C694 /* YourFaceSettingsPage.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		155DE9DFDF3CE2341E82CDCF /* Mirror */ = {
+			isa = PBXGroup;
+			children = (
+				C483B5586F963D09CC326634 /* EdgeLightController.swift */,
+				6A5E0A836EFFFEEFEAC3EEA0 /* EdgeLightKnob.swift */,
+				F9EA433389B5DAEB69B6C0DF /* MirrorController.swift */,
+				FDA393D2C0A6B6480E4AE8BE /* MirrorView.swift */,
+			);
+			path = Mirror;
+			sourceTree = "<group>";
+		};
+		1940772F6E5A77B86902BB2E /* Sensory */ = {
+			isa = PBXGroup;
+			children = (
+				FCE65CE3AED955C59897F669 /* AppleStyleHUD.swift */,
+				17B1B9A4127DEF835B890C4B /* SensoryMonitor.swift */,
+				FCF35FBB81E879E6528D2CA2 /* SystemKeyInterceptor.swift */,
+			);
+			path = Sensory;
+			sourceTree = "<group>";
+		};
+		19C286A13A50AAF072650A77 /* Tray */ = {
+			isa = PBXGroup;
+			children = (
+				29301DEF99A60D37EA878C97 /* DesktopCopyGuard.swift */,
+				770971196FEBCA51F6F73E94 /* DragPasteboard.swift */,
+				1361076A4AACC0FD28695767 /* DropArchive.swift */,
+				60EBED01A5038FE3428B4735 /* DropFiles.swift */,
+				AF43E2B9FFCD516EE0018B8A /* DropZone.swift */,
+				E7DA253B3650A1E2347D1940 /* FileSharing.swift */,
+				DB638BC5275DB88A5F793A17 /* TrayStore.swift */,
+				0B5900729735AFDB96EC3476 /* TrayView.swift */,
+			);
+			path = Tray;
+			sourceTree = "<group>";
+		};
 		202423A31C12727CFD3B9BF5 /* Indra */ = {
 			isa = PBXGroup;
 			children = (
+				5FF969E53D1EDCE09139EFA6 /* AppDelegate.swift */,
+				5C741659615FD5ED3BA28139 /* Assets.xcassets */,
+				E8FD74EA2842C2A4B7C124B6 /* Indra-FullAccess.entitlements */,
+				36349EF43BB64E5D4BF3E6FF /* Indra-Standard.entitlements */,
 				59813BF3F308590D0D4065A3 /* Indra.entitlements */,
 				BF7D72FE7B6BE835BD0FCB5E /* IndraApp.swift */,
+				F02A1686267B941AE8F7A5E0 /* App */,
+				4C8ED6C8DCA64092A8E0A287 /* Calendar */,
+				F22AB5B727AEA5D3745633AB /* FaceLock */,
+				BCD827AC29D4F933756EC09E /* Identify */,
+				3124090C476C0F880A2BF65D /* Idle */,
+				2399F8448B2560756BAC5E73 /* Live */,
+				E738023F619698F66E635C41 /* Lock */,
+				45D1A9C9D9E04198C86AD3CA /* Media */,
+				155DE9DFDF3CE2341E82CDCF /* Mirror */,
+				98AC6D25463C78D952EE777E /* Net */,
+				0061B069E671627BFE52FE6C /* Notch */,
+				32AFFEC6C38A1ECDB05C61C1 /* Resources */,
+				1940772F6E5A77B86902BB2E /* Sensory */,
+				7347FCC15261D06EDBD3F5B1 /* Settings */,
+				9371855FDBC6411DBCAF9EBE /* Todo */,
+				19C286A13A50AAF072650A77 /* Tray */,
+				946D4DE06E60FC8555AD6B5D /* Update */,
+				DC28C397896470851AECEDF0 /* Weather */,
+				9D580B7CB89C3E0F96C00D68 /* Zen */,
 			);
 			path = Indra;
+			sourceTree = "<group>";
+		};
+		2399F8448B2560756BAC5E73 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				EC0E8B9D706ED5B0C650259E /* BluetoothActivity.swift */,
+				71EFE653AAB8F2855EB8B1B4 /* DeviceScenes.swift */,
+				053F92B9880007E2E14873EC /* IntroAnimation.swift */,
+				778C03A6DF40D0DA1929D8B3 /* LiveActivity.swift */,
+				4913B9311F2A31103087F037 /* SongChangeCard.swift */,
+				F27DAA7F0B2DFFDC1C84065A /* WelcomeActivity.swift */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		25FFA94A1EF0D84C54809EA3 /* Liveness */ = {
+			isa = PBXGroup;
+			children = (
+				2FE5C3E23DE7B67F67B547A8 /* DeviceBezelDetector.swift */,
+				9177C9AE78AC897B63DC8084 /* GeometryLiveness.swift */,
+				021B1466332315895C990E62 /* GlareCue.swift */,
+				85C1A24F9DB6B6C110296EB6 /* GlareCueExtractor.swift */,
+				B709E1EFDAA1CE4B7D5D308F /* LandmarkGeometry.swift */,
+				D7D0D73692002DE3E46ABE2E /* LivenessAnalyzer.swift */,
+				2A8486BA6BAAB96650B1DF00 /* LivenessCues.swift */,
+				1008F1F91A4D55F2D5BD16E5 /* LivenessFeatures.swift */,
+				332CB7AC72351D717A7AE96E /* LivenessScoring.swift */,
+			);
+			path = Liveness;
+			sourceTree = "<group>";
+		};
+		2A6592B33C8F8F9C2A83DF70 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				7FE1C51985A78DFBC1CA0320 /* AnimationColorRow.swift */,
+				20CFD7DE676D86413B374C21 /* ColoredUnlockStill.swift */,
+				F985CAD49FE725547AC9B3A2 /* FaceLockSettings.swift */,
+				CFAAB4E86E29981B6CB073B8 /* ProgressiveHeaderBlur.swift */,
+				4B07D9CDEC646ED7CB78E7AB /* SessionLockButton.swift */,
+				8DA34958D1A89C4AA0227C72 /* SettingsControls.swift */,
+				C5B913CF8788E05AB4B58162 /* SettingsMetrics.swift */,
+				1D5BB11B59B670CF75264BDD /* SettingsTab.swift */,
+				B91DD6EEFA6821B91351ADA7 /* SettingsTabBar.swift */,
+				0C48BE3660BDDF7A69464E35 /* Pages */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		3124090C476C0F880A2BF65D /* Idle */ = {
+			isa = PBXGroup;
+			children = (
+				570EE26466B0B5A721893536 /* DownlineHUD.swift */,
+				3BD9B7FCC2C88493691164A8 /* IdleActivity.swift */,
+				66C20B66D66604333B157F30 /* InlineHUDPercent.swift */,
+			);
+			path = Idle;
+			sourceTree = "<group>";
+		};
+		32AFFEC6C38A1ECDB05C61C1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EADCF294C7E4E2D9493E8A83 /* BluetoothEarbuds1.gif */,
+				D7597103A96876819247FB8F /* BluetoothEarbuds2.gif */,
+				6EE38FBA4EFFC30DE1FB54C0 /* BluetoothHeadphones.gif */,
+				0C6549CE06A29C7E0C9C1682 /* BluetoothHomePod.gif */,
+				64708492C73F83BACC1B65E5 /* BluetoothHomePodSheet.png */,
+				6E5ED736FA8152A0DA4F336B /* BluetoothIMac.gif */,
+				6E851DD68119B9FA70F84BFC /* BluetoothIPad.gif */,
+				ABC01A7A3971BF2D2492D1B5 /* BluetoothIPhone.gif */,
+				36F40E24D77A559F2034548B /* BluetoothKeyboard.gif */,
+				A159352144FDB5C37DFB18EA /* BluetoothMacBook.gif */,
+				8692ECB92563E479CAA98D42 /* BluetoothMouse.gif */,
+				2861F84EF4D0F48179D080B6 /* BluetoothWatch.gif */,
+				2B16B3DF0FD796960DD73002 /* BluetoothWatchSheet.png */,
+				71035DE8C02D3F64CE06A48D /* IndraIntro.mp4 */,
+				0DCBFCC9C473970C1B8A0BBD /* IndraThunder.mp3 */,
+				A683621190BBC51E708F1375 /* IndraWelcome.wav */,
+				E51C929BB23813A65F16EC4E /* Fonts */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		41449CD6DA88878E00E6B1BD = {
 			isa = PBXGroup;
 			children = (
 				202423A31C12727CFD3B9BF5 /* Indra */,
+				4E8068EA661BBB83EC895D77 /* IndraTests */,
 				F8697751339807C5E868A052 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		45D1A9C9D9E04198C86AD3CA /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				7BD019D7770A70F9BA554A8A /* AccentColor.swift */,
+				00C817240B4189213F994EFA /* DuoView.swift */,
+				55C9B7117EA480824B153521 /* MediaController.swift */,
+				05668BEB617ABF747D40EA50 /* MediaModels.swift */,
+				4C40B9D597FD27E5F7132A9D /* NowPlayingHelper.swift */,
+				52098C29514C5505416D9FC2 /* PlayerView.swift */,
+				27ABCC19D0EE6ED8706AF7C7 /* SpotifyWebAPI.swift */,
+				30572B4004448080BF32650D /* SystemNowPlaying.swift */,
+				E809D769081993C80130DAE3 /* Visualizers.swift */,
+				85B91031845C3CA036F4EB34 /* YouTubeProbe.swift */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		4C8ED6C8DCA64092A8E0A287 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				72D5843D4E5AE395D6EE73C9 /* CalendarController.swift */,
+				E72E55AB34E8F4D1DED184C4 /* CalendarView.swift */,
+				B6B515F6228CC0287E53B864 /* DatePageView.swift */,
+				C1274137FD50A2FB8007067C /* DateStrip.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		4E8068EA661BBB83EC895D77 /* IndraTests */ = {
+			isa = PBXGroup;
+			children = (
+				C21303A72D91B99BB9F7C93A /* AppLockSessionTests.swift */,
+				724681C900949DC1CB418FE3 /* LyricsMatchingTests.swift */,
+				FB614BBCD61A3F792DE11999 /* NetTests.swift */,
+				CA2F7D14D1B354DF6BCBB747 /* SafeNumbersTests.swift */,
+			);
+			path = IndraTests;
+			sourceTree = "<group>";
+		};
+		7347FCC15261D06EDBD3F5B1 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				178A08CA262FF92D5E44964C /* Preferences.swift */,
+				2C2F914D59E0C10AEC506186 /* SettingsView.swift */,
+				E6E20C7C12066CAAB1D522B2 /* SettingsWindowController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		741A06CF3B3C74E028DC992A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6DB00EAC65A0BB0D04C36367 /* ArcFace.mlpackage */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9371855FDBC6411DBCAF9EBE /* Todo */ = {
+			isa = PBXGroup;
+			children = (
+				2A0A9D428290E2135789C592 /* RemindersStore.swift */,
+				6BFC94C6CD050DF9B7B4E6D3 /* RemindersView.swift */,
+				79C31DC5C604B77E05B43CC1 /* TaskAlarm.swift */,
+				F747E6B7C2B6003A856EA7AB /* TaskPopup.swift */,
+				E3720D401F706ABB3A7F2257 /* TodoStore.swift */,
+				151C2493E6D2BB614A86C6AF /* TodoView.swift */,
+			);
+			path = Todo;
+			sourceTree = "<group>";
+		};
+		946D4DE06E60FC8555AD6B5D /* Update */ = {
+			isa = PBXGroup;
+			children = (
+				5667A5AC9E45E4B034B56ADC /* UpdateManager.swift */,
+				11B6A46CD679143E5F0785DE /* UpdateNotice.swift */,
+			);
+			path = Update;
+			sourceTree = "<group>";
+		};
+		98AC6D25463C78D952EE777E /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				C7E4734203D0F5F5457902FE /* Net.swift */,
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+		9D580B7CB89C3E0F96C00D68 /* Zen */ = {
+			isa = PBXGroup;
+			children = (
+				7B30C40FACA9862AFBF37D37 /* ClipboardStore.swift */,
+				1D756C26170D120785CE89F8 /* FocusTimer.swift */,
+				7E52F2F56154959F5484954C /* ZenSpaceView.swift */,
+			);
+			path = Zen;
+			sourceTree = "<group>";
+		};
+		BB41768773D2B7587E419B8C /* NotchOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				2738D1428DEE9F038376C89A /* FaceScanNotchShape.swift */,
+				33BFEBD46050A80D0CB95E8A /* FaceScanWindow.swift */,
+				95888AEB5D66A8028E28B923 /* FaceScanWindowController.swift */,
+				AFDD213E48D4DFC2A5A1ACF2 /* MinimalUnlockView.swift */,
+				40448F0C0A9135DB3D6F9543 /* NotchGeometry.swift */,
+				4382A239B7963BD3A45F045C /* NotchOverlayController.swift */,
+				86744905C1A7E020FA7276F6 /* NotchOverlayView.swift */,
+				615FD2DC557EEF1B351D8695 /* NotchPanelStyle.swift */,
+				BBDFE8A985E2AC189407F7C1 /* NotchSkyLight.swift */,
+				ECBB08A89BB87867A66975B8 /* ScanAnimationView.swift */,
+			);
+			path = NotchOverlay;
+			sourceTree = "<group>";
+		};
+		BCD827AC29D4F933756EC09E /* Identify */ = {
+			isa = PBXGroup;
+			children = (
+				D84EA134F80D60ED000E1C63 /* SongIdentifier.swift */,
+				D0F620641C18898924924DBC /* SystemAudioCapture.swift */,
+			);
+			path = Identify;
+			sourceTree = "<group>";
+		};
+		DABEFBBBB8F2EBC0FE0E2B7A /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				AF9AE64190014BE811254633 /* AnimatedCheckmark.swift */,
+				60783B53B8FD20F19ECAEE08 /* EnrollmentDirectionSweep.swift */,
+				C71218A9F9A7AC412519117B /* EnrollmentRingView.swift */,
+				27C63A23796B23343E0CE55A /* EnrollmentSweepWindowController.swift */,
+				1B68745AE101E881FAAD3093 /* FaceLockTheme.swift */,
+				AA102FA740B28C67AD4381E4 /* HeadPoseReading.swift */,
+				92EE01584BDB4F7AAFF4EBC5 /* LoopingVideoView.swift */,
+				EDFE083293BD12F908E4213F /* OnboardingController.swift */,
+				43CCE903CA41CAF2581FB82C /* OnboardingControls.swift */,
+				519FEF609493827E04E97C01 /* OnboardingMetrics.swift */,
+				3879EF37E799B63A8999A97A /* OnboardingNotchView.swift */,
+				947A7D8069EF1289C0D40EA7 /* OnboardingStepViews.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		DC28C397896470851AECEDF0 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				F462504CC9A4835CE3D0752B /* WeatherController.swift */,
+				A8E066786C230194BF0F186F /* WeatherLocator.swift */,
+				505526313C248C2D8555B07D /* WeatherView.swift */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		E51C929BB23813A65F16EC4E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AB742310AC66957C5CB062A6 /* MissFajardose-Regular.ttf */,
+				11927F119A869A6180FEE0F3 /* YouthShandey.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E738023F619698F66E635C41 /* Lock */ = {
+			isa = PBXGroup;
+			children = (
+				686F6D66B167AEC975C53226 /* AlbumPhotoBackdrop.swift */,
+				93434AEEB0D95A8426CE6991 /* ArtworkPalette.swift */,
+				9D89D3E5EDA61693C3A9C002 /* ClockStyles.swift */,
+				68DF2A6B565E0BBA10C49862 /* LockCursor.swift */,
+				240E790CA7D63D1CC6E41AEC /* LockEffects.swift */,
+				916017EB474D37A4D5880C1B /* LockHUD.swift */,
+				27D522757E7BB8C1C436F0DC /* LockScreenController.swift */,
+				87299A5A1DCB2045B75537E1 /* LockScreenView.swift */,
+				00858ABA7D094D2CC0D00437 /* LockSounds.swift */,
+				9CA19C08C49FD8C20C1B5B2B /* LockSpace.swift */,
+				F812FF1F2EF21938D148F358 /* LockVisualizer.swift */,
+				D1718717BAA737EEE73E7C37 /* LyricsFont.swift */,
+				9B47E01186C3DD8B2EE66FC0 /* LyricsRomanizer.swift */,
+				B4A523DFF2C9A6ABF07F1395 /* LyricsStore.swift */,
+				B890FEFE1FE1840D1C32FB7E /* MotionArtwork.swift */,
+				B4F7BF0FBA2B138F5C412691 /* QueueDock.swift */,
+				B98B2C09E47BC04AE056C855 /* VinylPod.swift */,
+			);
+			path = Lock;
+			sourceTree = "<group>";
+		};
+		F02A1686267B941AE8F7A5E0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A419C6634512882DC1077687 /* AboutPage.swift */,
+				B8FC8EE2E46A9C47F34EEB62 /* AppPresence.swift */,
+				8CABE136A91D54316518CD86 /* BackgroundJobs.swift */,
+				174505825D76DCD2D0650B19 /* Credits.swift */,
+				CB10235A9215F4AA1CFDD997 /* Design.swift */,
+				3B01E802EB0FAECE9DCE365E /* DeveloperAccess.swift */,
+				F047BD25B4ADDEF87CF23515 /* Diagnostics.swift */,
+				C17F84FADC31A3639365C856 /* FreezeTrail.swift */,
+				494FF0AF3DE5AB4CB3AC9CE4 /* HapticLab.swift */,
+				54A613347C477F1C360A91D2 /* Haptics.swift */,
+				E5C8CA1B31D69164586E18F9 /* HealthMonitor.swift */,
+				9970157B75C2840776FF7C6C /* LogTrim.swift */,
+				DE0D82FB98663A2FA2FF9C5B /* MainWindowController.swift */,
+				89F2D4F3D5F088F2A7019496 /* MainWindowView.swift */,
+				37DF9890B3DCACB8D05C5BEA /* Postmortem.swift */,
+				54E7461F4CBB0FC6E487B0C7 /* Pressable.swift */,
+				9D68B59805BE31A88D2383ED /* SafeNumbers.swift */,
+				EF2EBE9CF8834DA43E3563D6 /* ScreenAccess.swift */,
+				91426042173BE1208141634E /* SharedCI.swift */,
+				BF2B97A8DC046C0F56DCC1A1 /* SigningDiagnostics.swift */,
+				91791AD5EF62549A7C3D21BE /* SoftSound.swift */,
+				C91495670E40C334513006C1 /* Stagger.swift */,
+				1D7D0B2D80B4665FC517B44E /* StatusWindow.swift */,
+				69B0D24FCB4FA934AAAE35F5 /* TipsPage.swift */,
+				C9C6C9F574D30AFC859FE9C3 /* Trace.swift */,
+				B290FB3FDC40B2F62A68A1FB /* TrackpadActuator.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F22AB5B727AEA5D3745633AB /* FaceLock */ = {
+			isa = PBXGroup;
+			children = (
+				15D693BBC3111FFD2B982881 /* AnimationColor.swift */,
+				A8D9C6E1252F45BBC117CB17 /* AnimationPolish.swift */,
+				F708A7AF0D6174B80C2A4EEB /* AnimationPolish2.swift */,
+				38B1AB5083AE1E52FA394644 /* ArcFaceEmbedder.swift */,
+				E39F10063F4F6BC86E5EEA24 /* CameraDeviceCatalog.swift */,
+				A89047B70876A1551BB2245E /* CameraManager.swift */,
+				6FEC1C4CD71F24A0760530F1 /* CameraPreviewView.swift */,
+				5E2A1997026AF6B45E56E8DF /* CursorCenter.swift */,
+				1C941CACD96EE769281AA644 /* CustomColorPicker.swift */,
+				D5E91BE7783EAB9B2B2D4692 /* FaceAligner.swift */,
+				33112DCEFD24FB150D742B92 /* FaceDetector.swift */,
+				60C62FD011E893599B0D8991 /* FaceEmbedder.swift */,
+				3C3BA0536DCE0602E864FA46 /* FaceEnrollmentStore.swift */,
+				B0D2A56F162E90AA1E646112 /* FaceLabController.swift */,
+				7DDFAE3D81C432C14B0A2A5C /* FaceLabView.swift */,
+				47421B804640D42238B72D9A /* FaceLockEnvironment.swift */,
+				EC20D9654F8A1B56887C385A /* FaceLockGate.swift */,
+				09A68C5310FD7428CF5F3530 /* FaceLockHost.swift */,
+				18ABDDC05FB8ED6D1E3C719E /* FaceLockLog.swift */,
+				A16E86202C8753F866DA2B63 /* FaceLockMenuBar.swift */,
+				BEC369D5EF17C79762B28DC0 /* FaceLockPage.swift */,
+				337CB62670BE68C1D598D18F /* FaceLockSecrets.swift */,
+				506F858189918FBD928C0EFF /* FaceRecognitionPipeline.swift */,
+				98A79FF068F1CA92BA6C0ED2 /* FaceUnlockCoordinator.swift */,
+				5C2178E464D5C87E18C378E6 /* KeychainManager.swift */,
+				6C7A2B12B13C450E836ABD03 /* KeystrokeInjector.swift */,
+				E769E8686DC86C884C3737E1 /* LaunchAtLogin.swift */,
+				14A7D1E03D1DA48C56E0760F /* LockMonitor.swift */,
+				970027F0E834417F16E44526 /* MenuBarIconTinter.swift */,
+				8C7044AD311EC378552BAA45 /* POCController.swift */,
+				6678EC06A6C972F71FEB9BC8 /* RingLight.swift */,
+				6479017E70662F83351BCE0B /* RingLightGuard.swift */,
+				14178C92AD8C74E3B15504A5 /* SecureCredentialManager.swift */,
+				F839B0266E4BB6B0AB8EA8CC /* SecureFaceStore.swift */,
+				666968FB0F785BA77F5E5BFF /* SessionAutoLocker.swift */,
+				7B4E756731E029D0DEFB46AF /* SpaceKeyMonitor.swift */,
+				FBEA53CB062F11BED5CD3071 /* AppLock */,
+				25FFA94A1EF0D84C54809EA3 /* Liveness */,
+				011D91F383CD8137F52FA4F1 /* Media */,
+				741A06CF3B3C74E028DC992A /* Models */,
+				BB41768773D2B7587E419B8C /* NotchOverlay */,
+				DABEFBBBB8F2EBC0FE0E2B7A /* Onboarding */,
+				2A6592B33C8F8F9C2A83DF70 /* Settings */,
+			);
+			path = FaceLock;
 			sourceTree = "<group>";
 		};
 		F8697751339807C5E868A052 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				C4D52A2314E1F92A436F5243 /* Indra.app */,
+				9E3D0AB1D30BDF1BB101C87B /* IndraTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		FBEA53CB062F11BED5CD3071 /* AppLock */ = {
+			isa = PBXGroup;
+			children = (
+				4C42DF337EC3670267028B82 /* AppLockController.swift */,
+				68A38C683472FFEFBD7A25DA /* AppLockFaceReason.swift */,
+				042F5C7721357F781991FEFB /* AppLockIdentityCache.swift */,
+				763A8107857003CEF7C97292 /* AppLockOverlay.swift */,
+				A1041F94FD315CB7EF94C70C /* AppLockSession.swift */,
+				5C2F97C5E32A1B574B12F836 /* AppLockSettingsPage.swift */,
+				81998F87F158AA2EDDDD8E60 /* AppLockView.swift */,
+				494FF0098FBB1DE82D9131D8 /* FaceUnlockCoordinator+AppLock.swift */,
+			);
+			path = AppLock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		7E80620C1563F8FB9FD4495D /* IndraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACAD99D1D6A5CEE1EA74E66A /* Build configuration list for PBXNativeTarget "IndraTests" */;
+			buildPhases = (
+				81B3336D4A29AE47EDB7B5C6 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42C3D888586CF17228AE9FF0 /* PBXTargetDependency */,
+			);
+			name = IndraTests;
+			packageProductDependencies = (
+			);
+			productName = IndraTests;
+			productReference = 9E3D0AB1D30BDF1BB101C87B /* IndraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		FA121DBEB34B85D5B5F3432B /* Indra */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BF762BA8EBAE66E564C6E2C /* Build configuration list for PBXNativeTarget "Indra" */;
 			buildPhases = (
+				060727F5C090A584D75763C4 /* Build Now Playing helper */,
 				3498B9F82FB64B65E8A50048 /* Sources */,
+				8993137F78BC9DD356B77B3D /* Resources */,
+				AB3AB6ED81C8E06BB56B87B6 /* Sync build number from VERSION */,
 			);
 			buildRules = (
 			);
@@ -71,6 +1051,9 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					7E80620C1563F8FB9FD4495D = {
+						ProvisioningStyle = Automatic;
+					};
 					FA121DBEB34B85D5B5F3432B = {
 						ProvisioningStyle = Automatic;
 					};
@@ -91,20 +1074,324 @@
 			projectRoot = "";
 			targets = (
 				FA121DBEB34B85D5B5F3432B /* Indra */,
+				7E80620C1563F8FB9FD4495D /* IndraTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8993137F78BC9DD356B77B3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12697959DB730D2FABE52F8 /* Assets.xcassets in Resources */,
+				995C7FABA314CFA45BF5066E /* BluetoothEarbuds1.gif in Resources */,
+				DE253BA5D96174350C0F5C06 /* BluetoothEarbuds2.gif in Resources */,
+				DD7AD49FA7FD54B3B393BD68 /* BluetoothHeadphones.gif in Resources */,
+				B991F944B84C2A533CF7F05F /* BluetoothHomePod.gif in Resources */,
+				5215594DE393D1D33BBF6A27 /* BluetoothHomePodSheet.png in Resources */,
+				712EF40454941892B645DC6B /* BluetoothIMac.gif in Resources */,
+				2F6B87E946F466B815984205 /* BluetoothIPad.gif in Resources */,
+				62A76BECB42C2A4084B5CF17 /* BluetoothIPhone.gif in Resources */,
+				986F377AF318DECE5C4B26E4 /* BluetoothKeyboard.gif in Resources */,
+				4EBD41F0103AD330D84A35B4 /* BluetoothMacBook.gif in Resources */,
+				4D33E1921C56F397B2F2E5F5 /* BluetoothMouse.gif in Resources */,
+				5FF520C1C123801F9690ED06 /* BluetoothWatch.gif in Resources */,
+				53C490D73CDD4FC311F3E54B /* BluetoothWatchSheet.png in Resources */,
+				3EB9EDCC87F8C93FB998C168 /* IndraIntro.mp4 in Resources */,
+				AB735EBE174842B4C91AE6A2 /* IndraThunder.mp3 in Resources */,
+				49150F4411D30654B3F1B41E /* IndraWelcome.wav in Resources */,
+				B8C4DD65BEFBD4E03DFC83C3 /* MissFajardose-Regular.ttf in Resources */,
+				1C766CCA18F412A885326FBD /* YouthShandey.otf in Resources */,
+				92B07994B1FD39D940D657B8 /* unlockanimation.mp4 in Resources */,
+				6F7EB38736E4BB91F9FA722E /* unlockstatic.png in Resources */,
+				9891F1C6D96C43EFC6D32098 /* unsuccessfulunlockanimation.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		060727F5C090A584D75763C4 /* Build Now Playing helper */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build Now Playing helper";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Helper/build-helper.sh\"";
+		};
+		AB3AB6ED81C8E06BB56B87B6 /* Sync build number from VERSION */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Sync build number from VERSION";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "V=\"$(tr -d '[:space:]' < \"${SRCROOT}/VERSION\" 2>/dev/null || true)\"\nPLIST=\"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}\"\nif [ -n \"$V\" ] && [ -f \"$PLIST\" ]; then\n  /usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $V\" \"$PLIST\" || true\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3498B9F82FB64B65E8A50048 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A87318F7FDC1BB77ECA28F9B /* AboutPage.swift in Sources */,
+				28DA939CF7E5C7EF590994AD /* AccentColor.swift in Sources */,
+				A446552F0FC7B1033C2DA5AE /* AlbumPhotoBackdrop.swift in Sources */,
+				9A9CC37E522EC89F77311CCD /* AnimatedCheckmark.swift in Sources */,
+				3E52C4B9D3D40E1DB0E79FE6 /* AnimationColor.swift in Sources */,
+				DCF584236FA9CD5EA2354F11 /* AnimationColorRow.swift in Sources */,
+				A92BA2FD3AFA378C0AA947EB /* AnimationPolish.swift in Sources */,
+				AA9BB3453C9AE00863389303 /* AnimationPolish2.swift in Sources */,
+				13D32E82A7726EEC5C797B26 /* AppDelegate.swift in Sources */,
+				7C76FA22187F360121052C8D /* AppLockController.swift in Sources */,
+				BD974B67E4B1CB81726FD266 /* AppLockFaceReason.swift in Sources */,
+				8C619A99D6C413F87013AB78 /* AppLockIdentityCache.swift in Sources */,
+				17DC41D18921254F934BD619 /* AppLockOverlay.swift in Sources */,
+				128024CC5B56CB1846A92711 /* AppLockSession.swift in Sources */,
+				C166D345D777043683E78C13 /* AppLockSettingsPage.swift in Sources */,
+				0902D753F90679D08BFC48B9 /* AppLockView.swift in Sources */,
+				72F9B78D00ED25CEC8BDD599 /* AppPresence.swift in Sources */,
+				9B60977257AB9DDC6D3E0D0D /* AppleStyleHUD.swift in Sources */,
+				1EA3C1F4A62C2C9C5E8B2265 /* ArcFace.mlpackage in Sources */,
+				9A79892FE83A80CF03DF63E6 /* ArcFaceEmbedder.swift in Sources */,
+				FA5052730298045B3A071205 /* ArtworkPalette.swift in Sources */,
+				4C90D332E60D5C7F66D1EF28 /* AxisLockedScroll.swift in Sources */,
+				514B842C30B6C7BA3921FE67 /* BackdropPanel.swift in Sources */,
+				2192BC181A02ED7F2F51AE29 /* BackgroundJobs.swift in Sources */,
+				A2B64A8297E4914543A1BA6B /* BluetoothActivity.swift in Sources */,
+				E7FAFE5FB780B2DFBFC513DA /* BlurTuning.swift in Sources */,
+				D8C8DF08C6FCA94907B2D34B /* CalendarController.swift in Sources */,
+				6BD263146C04AEFC39D1A9BD /* CalendarView.swift in Sources */,
+				3B46CDE56283D95DBCE5FE6F /* CameraDeviceCatalog.swift in Sources */,
+				9C6E1E17B28460411AA1915F /* CameraManager.swift in Sources */,
+				2446522CB1C46D5D265B17CE /* CameraPreviewView.swift in Sources */,
+				46C5E919656DAE4ED632A134 /* CameraSettingsPage.swift in Sources */,
+				A3F0515D094D4EDF70A52A61 /* ClipboardStore.swift in Sources */,
+				75AC947AF0A13F49BA0FE899 /* ClockStyles.swift in Sources */,
+				F998541F837D01DEBB51E0D1 /* ColoredUnlockStill.swift in Sources */,
+				264AA90A8D45ACBA985DC833 /* Credits.swift in Sources */,
+				1AA160EA447601E5ED9E4948 /* CursorCenter.swift in Sources */,
+				EE44E45ECB4B9E9C44A2040C /* CustomColorPicker.swift in Sources */,
+				AECC20EE24A32554BE59DC60 /* DatePageView.swift in Sources */,
+				CD439463B1E9C966ED2DFBB5 /* DateStrip.swift in Sources */,
+				1BAB65EC01C5F9B2E5EB39BD /* Design.swift in Sources */,
+				FC66D6794921E95D30D217C5 /* DesktopCopyGuard.swift in Sources */,
+				5E6D4606C0DB5A105C7B9ADB /* DeveloperAccess.swift in Sources */,
+				99AD0EB51910FDAA6B88AD7C /* DeviceBezelDetector.swift in Sources */,
+				A02E243B8F2F36FE7000B0E9 /* DeviceScenes.swift in Sources */,
+				12894E5F764AC41EDACEA2C5 /* Diagnostics.swift in Sources */,
+				26187FA824573EC2F80C8567 /* DownlineHUD.swift in Sources */,
+				58370BB1D0E50B3A49A3EBAB /* DragPasteboard.swift in Sources */,
+				12CBD9514E461CF1AE95C445 /* DropArchive.swift in Sources */,
+				5B9CFD6DE362CBD8650080AE /* DropFiles.swift in Sources */,
+				4B31682BF9E05C689D7D4760 /* DropZone.swift in Sources */,
+				58E915B555C3D789886032EF /* DuoView.swift in Sources */,
+				A9DB3A92E89FE81D812BC09B /* EdgeLightController.swift in Sources */,
+				E658FD502F14FB081A271048 /* EdgeLightKnob.swift in Sources */,
+				49E3F2F2797E75756B183604 /* EnrollmentDirectionSweep.swift in Sources */,
+				2310BCF94CF46B21F45F1C4A /* EnrollmentRingView.swift in Sources */,
+				C8A4E831FF8C27E564DB2FA4 /* EnrollmentSweepWindowController.swift in Sources */,
+				392EE152883346351C33D0FB /* FaceAligner.swift in Sources */,
+				F68F61076C0F762D24B2AC40 /* FaceDetector.swift in Sources */,
+				635B45204F2C5D0741C42182 /* FaceEmbedder.swift in Sources */,
+				995DF9F8DCE45FB2F3BFA8DB /* FaceEnrollmentStore.swift in Sources */,
+				E4FC04B438A69564B503B6E3 /* FaceLabController.swift in Sources */,
+				EF2C6119387037AE692FE3CF /* FaceLabView.swift in Sources */,
+				FF38CB99667DCF08453117C7 /* FaceLockEnvironment.swift in Sources */,
+				F3B4B6950B044F1C7C6F2387 /* FaceLockGate.swift in Sources */,
+				A2F906A895BC007FB203A20C /* FaceLockHost.swift in Sources */,
+				DF3A11CFEFC94A252944CDAF /* FaceLockLog.swift in Sources */,
+				3131FD7893BBCA8386521D9A /* FaceLockMenuBar.swift in Sources */,
+				884396E3C3383A5DDE338BA2 /* FaceLockPage.swift in Sources */,
+				B1C9F1728F382AD076FC8305 /* FaceLockSecrets.swift in Sources */,
+				E6CC19FDADA4E9B46213FF78 /* FaceLockSettings.swift in Sources */,
+				29AD0256B3692ED624FF3B24 /* FaceLockTheme.swift in Sources */,
+				3FE78FDE762927A4A9D4E5E8 /* FaceRecognitionPipeline.swift in Sources */,
+				F2B7362BBBEBC4E2E59412E4 /* FaceScanNotchShape.swift in Sources */,
+				56DCC980B347FD0D71E94598 /* FaceScanWindow.swift in Sources */,
+				ECFC2749805589BB45A44E3A /* FaceScanWindowController.swift in Sources */,
+				EF23FB924CFDBE17F0227149 /* FaceUnlockCoordinator+AppLock.swift in Sources */,
+				4F1AEA26167CA4AC3CCA5D3D /* FaceUnlockCoordinator.swift in Sources */,
+				FF977A6F48519D0874D37517 /* FileSharing.swift in Sources */,
+				137BE2F135B1B75C42924EF7 /* FocusEdgeOverlay.swift in Sources */,
+				83B84E80F7F31619206ACDE4 /* FocusTimer.swift in Sources */,
+				7467D456CBEA779897C70257 /* FreezeTrail.swift in Sources */,
+				D79F6AAA767921B7F175E1F6 /* FrostedBackground.swift in Sources */,
+				F979FDA7D3A916D9FA18F6E1 /* GeneralSettingsPage.swift in Sources */,
+				E9F8C45176CB35511347C838 /* GeometryLiveness.swift in Sources */,
+				45CA7E80A15068818285461F /* GlareCue.swift in Sources */,
+				4568A63125446A323FCE6519 /* GlareCueExtractor.swift in Sources */,
+				13E042B61F11461C79EFD152 /* HapticLab.swift in Sources */,
+				0CAAEAD0EF96D731EB5EC2A2 /* Haptics.swift in Sources */,
+				E223AA063A44DB7EA742D2DD /* HeadPoseReading.swift in Sources */,
+				5BB6D24B9D7F77E00A088FB8 /* HealthMonitor.swift in Sources */,
+				19ADE7EB5102ED4B4EDE2E27 /* IdleActivity.swift in Sources */,
 				8019A8141CF36967284CFBF8 /* IndraApp.swift in Sources */,
+				2817D9FB8589FD4194623EB7 /* InlineHUDPercent.swift in Sources */,
+				2E4284D9D02F629E8C49B549 /* IntroAnimation.swift in Sources */,
+				7B68CB1645F59765643C896A /* IslandSettings.swift in Sources */,
+				EFC42DB749DB10FF0FC55CBA /* KeychainManager.swift in Sources */,
+				193C46B75F8FD87C61F617E0 /* KeystrokeInjector.swift in Sources */,
+				429F6C9E68BE6C402681AE28 /* LandmarkGeometry.swift in Sources */,
+				4E9BF490CB5C483821270B83 /* LaunchAtLogin.swift in Sources */,
+				C3F64F7128273DE2E701D7FD /* LiveActivity.swift in Sources */,
+				553C08ACB58407E560711F8F /* LivenessAnalyzer.swift in Sources */,
+				D034E503D8DA5C545EC7B989 /* LivenessCues.swift in Sources */,
+				12B1819D737B68B72F8E9E34 /* LivenessFeatures.swift in Sources */,
+				E4B589A003A0B8A9F48D1532 /* LivenessScoring.swift in Sources */,
+				7C5D6F9AE29C94FE7FC0E597 /* LockCursor.swift in Sources */,
+				EA24569E47CC62D5B24551A8 /* LockEffects.swift in Sources */,
+				E8D6A217EF835CF5060D1169 /* LockHUD.swift in Sources */,
+				A8830E6D6A316CF0711D6ED6 /* LockMonitor.swift in Sources */,
+				ACF7162B5C6A947F02EAA5AB /* LockScreenController.swift in Sources */,
+				2B3FA4D5F07B88BBEEBBF101 /* LockScreenView.swift in Sources */,
+				D88878C41B6C7B4F14EA96DD /* LockSounds.swift in Sources */,
+				E6B2FD882075934ED8AEBFA2 /* LockSpace.swift in Sources */,
+				BEAC2CFD3EF710C41771E0D3 /* LockVisualizer.swift in Sources */,
+				BFC54047FF97BB4351D255BD /* LogTrim.swift in Sources */,
+				E1874D9A1FA9667DC8EFE361 /* LoopingVideoView.swift in Sources */,
+				B3B1A27A64FA9D957ED91DB0 /* LyricsFont.swift in Sources */,
+				57A38E3E8396BB4EDA9771E3 /* LyricsRomanizer.swift in Sources */,
+				880F55DFA3DFF72DF181EFED /* LyricsStore.swift in Sources */,
+				31C374261925B711F7278F0D /* MainWindowController.swift in Sources */,
+				34C7F0F3A7BDCBD3B5F4C061 /* MainWindowView.swift in Sources */,
+				3AD6EB595FAA2ACB7FDA4CA7 /* MediaController.swift in Sources */,
+				BB0527533D816B072057DC08 /* MediaModels.swift in Sources */,
+				089BB38DAAFFE5729E7B88F7 /* MenuBarIconTinter.swift in Sources */,
+				332AD6325323F64E153F35EE /* MinimalUnlockView.swift in Sources */,
+				4E547C6C4B9855A6FAA59EF6 /* MirrorController.swift in Sources */,
+				D3CFA21CD87EC2703AA8A922 /* MirrorView.swift in Sources */,
+				659C50116753CBBA003BE46D /* MotionArtwork.swift in Sources */,
+				B814D4E0539DE30E59062FD2 /* Net.swift in Sources */,
+				089E923C9C5DD4F4B6B44D62 /* NotchContextMenu.swift in Sources */,
+				370BF32D9E46234FADA598A5 /* NotchGeometry.swift in Sources */,
+				F20855DDCBC70F2A14839E6A /* NotchMetrics.swift in Sources */,
+				FAAFB316DCF696B0ABAF16ED /* NotchMotion.swift in Sources */,
+				32B7C9AB606777F6C32A24D1 /* NotchOverlayController.swift in Sources */,
+				EAB277800DA6D894374E2CE3 /* NotchOverlayView.swift in Sources */,
+				ACB353F71E2AC90771B1068E /* NotchPanel.swift in Sources */,
+				BFB409590EE993508FA54748 /* NotchPanelStyle.swift in Sources */,
+				105C1D01CE1C155292B8AD32 /* NotchRootView.swift in Sources */,
+				37B5D6FCE473D676BB1704F6 /* NotchShape.swift in Sources */,
+				D247DD47ED9F6008C8A66B6F /* NotchSkyLight.swift in Sources */,
+				0B5BB2D6A234ABC7EB181630 /* NotchState.swift in Sources */,
+				208B27A3F84E25DCB7483C08 /* NotchWindowController.swift in Sources */,
+				049BCC802E1D42D3538139E4 /* NowPlayingHelper.swift in Sources */,
+				CA99890321DC1F84AE8BE125 /* OnboardingController.swift in Sources */,
+				EF3B850ADE8D9715603285A9 /* OnboardingControls.swift in Sources */,
+				839CA580151C924DFCAB1F7E /* OnboardingMetrics.swift in Sources */,
+				95631404D80A6210A1084007 /* OnboardingNotchView.swift in Sources */,
+				2D852012FF1DDD933835C41E /* OnboardingStepViews.swift in Sources */,
+				3D53F417C02B1B4D9E5183E2 /* POCController.swift in Sources */,
+				318FF1426E383035560C8DA1 /* PasswordSettingsPage.swift in Sources */,
+				C59002AEC0B627B3F0DA395B /* PlayerView.swift in Sources */,
+				C33C554B6F9B6467DEEEE005 /* Postmortem.swift in Sources */,
+				FEF1968A85595F2BF19F054E /* Preferences.swift in Sources */,
+				3509BFD79A5BA828897E126A /* Pressable.swift in Sources */,
+				A6E2F0F7FD2BC6C78FDC7DD5 /* ProgressiveHeaderBlur.swift in Sources */,
+				19731588542B6A0879835F13 /* QueueDock.swift in Sources */,
+				DB351BF44A4B3D915F1A205F /* RecognitionSettingsPage.swift in Sources */,
+				F814C477AE2A3C62F8346A2A /* RemindersStore.swift in Sources */,
+				33592C1E5155DE02C9F9BF14 /* RemindersView.swift in Sources */,
+				24E6F6961351F6AB0DDE6120 /* RingLight.swift in Sources */,
+				08DDEAEF0A33D1B961483A7E /* RingLightGuard.swift in Sources */,
+				69F1573FFD942AC17B5F590F /* SafeNumbers.swift in Sources */,
+				F984CB1EB4F14882E8027A3A /* ScanAnimationView.swift in Sources */,
+				FC521A70AE4F9EDF260238CA /* ScreenAccess.swift in Sources */,
+				69F42AA00C3B6CF9F9B55C1B /* ScrollEdgeFade.swift in Sources */,
+				2E738BA05CDE3C6B07ADA5D5 /* SecureCredentialManager.swift in Sources */,
+				AE89CD38B4E1040F3EC3FD73 /* SecureFaceStore.swift in Sources */,
+				6118C776BB570A7BF22C0AC3 /* SensoryMonitor.swift in Sources */,
+				1AF12C1DBBAD0D95BAE49301 /* SessionAutoLocker.swift in Sources */,
+				ED51F01E0B62E6802324B164 /* SessionLockButton.swift in Sources */,
+				9E7036F8D50F136E7FAC7236 /* SettingsControls.swift in Sources */,
+				91B09E42068604EEC8CB5027 /* SettingsMetrics.swift in Sources */,
+				BE7D40DC3568C1DE816EC32B /* SettingsTab.swift in Sources */,
+				AE230013728894CE3E43FECF /* SettingsTabBar.swift in Sources */,
+				A7F1017637937EBB2E970451 /* SettingsView.swift in Sources */,
+				6FEDE950A893C62CCF913B02 /* SettingsWindowController.swift in Sources */,
+				0270160C1EF2239B1D593A8F /* SharedCI.swift in Sources */,
+				9EE7D696818623F5B2F1B0FB /* SigningDiagnostics.swift in Sources */,
+				F5DA47D25146648B0CDD514D /* SnapshotBlur.swift in Sources */,
+				31DFEB3B703E8753D8BBFFE4 /* SoftSound.swift in Sources */,
+				9FC8B10F793F78DD6DFB289F /* SongChangeCard.swift in Sources */,
+				E07ACF751746F367375D2B23 /* SongIdentifier.swift in Sources */,
+				8E0B1E91CC92C486393924D6 /* SpaceChangeGuard.swift in Sources */,
+				7DB27D2F2F6EF1B20A96EEED /* SpaceKeyMonitor.swift in Sources */,
+				044AC3A8F129C92F80A142FB /* SpotifyWebAPI.swift in Sources */,
+				DE41F9F411BD04745A208702 /* Stagger.swift in Sources */,
+				830FAA5228F6B1EDAE1F9C3A /* StatusWindow.swift in Sources */,
+				0F09796F0EEDCF7E1646EA72 /* StickySpace.swift in Sources */,
+				A4BE8FF79C7F3A0AB5A2ED66 /* SystemAudioCapture.swift in Sources */,
+				A1987DB5EF7C64BF99C5C532 /* SystemKeyInterceptor.swift in Sources */,
+				E486B2779F35488A59696DDD /* SystemNowPlaying.swift in Sources */,
+				04E9830809BC1980A1379856 /* TaskAlarm.swift in Sources */,
+				320FB14003C4B029773BE606 /* TaskPopup.swift in Sources */,
+				1376BB70B99A8028226C86C4 /* TipsPage.swift in Sources */,
+				F838EA13AD5E35BFEBB3B315 /* TodoStore.swift in Sources */,
+				19666F6FE284D0B4610F90D5 /* TodoView.swift in Sources */,
+				30D0DA6674EBD3624F0BF952 /* Trace.swift in Sources */,
+				5E77D23220C4AF25321AACCC /* TrackpadActuator.swift in Sources */,
+				1F36F64C178268A5C8B2D269 /* TrayStore.swift in Sources */,
+				600E05D7AF27FC0114B7A519 /* TrayView.swift in Sources */,
+				E886D976537635817C00A319 /* UpdateManager.swift in Sources */,
+				586A587B4EB67D1964FDA23F /* UpdateNotice.swift in Sources */,
+				11869114FE4C6AB1DDFA733E /* VariableBlur.swift in Sources */,
+				2AB2E463A1CD479AC10D46E5 /* VinylPod.swift in Sources */,
+				480F92FE7681ECD253895211 /* Visualizers.swift in Sources */,
+				3EC8B32FA354D9444382B68C /* WeatherController.swift in Sources */,
+				F0C12AC5A8EE7BCD132D8CF0 /* WeatherLocator.swift in Sources */,
+				0638C94A8592758ED401D230 /* WeatherView.swift in Sources */,
+				2737B380DB61B792F0A92956 /* WelcomeActivity.swift in Sources */,
+				8A151BC821265C67D75A895F /* YouTubeProbe.swift in Sources */,
+				64123279C4D274FC4A3D0B5B /* YourFaceSettingsPage.swift in Sources */,
+				FA446F5F035DF548EEEC5282 /* ZenSpaceView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B3336D4A29AE47EDB7B5C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF185957CC7FD92C5DED16C /* AppLockSessionTests.swift in Sources */,
+				C88ABB9DF485CD2BE3E251BE /* LyricsMatchingTests.swift in Sources */,
+				6849D306072AE0EC0738B971 /* NetTests.swift in Sources */,
+				E62CEBB8485B9FF2CD4B02E8 /* SafeNumbersTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42C3D888586CF17228AE9FF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA121DBEB34B85D5B5F3432B /* Indra */;
+			targetProxy = B2B9325052630C71F4C69D99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1165A3C88FD950E84F8A4C7A /* Release */ = {
@@ -163,22 +1450,52 @@
 			};
 			name = Release;
 		};
+		3AA8A9D9F5C3E4C1F4C9A91B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.indra.IndraTests;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Indra.app/Contents/MacOS/Indra";
+			};
+			name = Release;
+		};
 		8218D9D67E466B23B6910F27 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Indra/Indra.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "Indra/Indra-FullAccess.entitlements";
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				ENABLE_APP_SANDBOX = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
+				CURRENT_PROJECT_VERSION = 568;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "Indra controls Apple Music and Spotify playback (play, pause, skip, seek) and reads which YouTube song is playing in Safari, Chrome and other browsers.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Indra shows in the notch when your earbuds or headphones connect or disconnect.";
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "Indra shows your upcoming events in the notch. Events are only read, never changed.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Indra uses the camera for the Mirror preview in the notch and, when you turn on Face Lock, to recognise your face and unlock your Mac.";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Indra uses your location once, when you ask, to find your city for the weather page.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Indra uses your location once, when you ask, to find your city for the weather page.";
+				INFOPLIST_KEY_NSRemindersFullAccessUsageDescription = "Indra shows your reminders in the notch, and lets you add and finish them there.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.indra.Indra;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
@@ -189,18 +1506,28 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Indra/Indra.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "Indra/Indra-FullAccess.entitlements";
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				ENABLE_APP_SANDBOX = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
+				CURRENT_PROJECT_VERSION = 568;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "Indra controls Apple Music and Spotify playback (play, pause, skip, seek) and reads which YouTube song is playing in Safari, Chrome and other browsers.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Indra shows in the notch when your earbuds or headphones connect or disconnect.";
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "Indra shows your upcoming events in the notch. Events are only read, never changed.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Indra uses the camera for the Mirror preview in the notch and, when you turn on Face Lock, to recognise your face and unlock your Mac.";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Indra uses your location once, when you ask, to find your city for the weather page.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Indra uses your location once, when you ask, to find your city for the weather page.";
+				INFOPLIST_KEY_NSRemindersFullAccessUsageDescription = "Indra shows your reminders in the notch, and lets you add and finish them there.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.indra.Indra;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
@@ -270,6 +1597,26 @@
 			};
 			name = Debug;
 		};
+		E341164F70714268937D280E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.indra.IndraTests;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Indra.app/Contents/MacOS/Indra";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -278,6 +1625,15 @@
 			buildConfigurations = (
 				A1C36B412DC7F6DAC680BCE3 /* Debug */,
 				8218D9D67E466B23B6910F27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ACAD99D1D6A5CEE1EA74E66A /* Build configuration list for PBXNativeTarget "IndraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E341164F70714268937D280E /* Debug */,
+				3AA8A9D9F5C3E4C1F4C9A91B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

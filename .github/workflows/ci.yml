@@ -1,0 +1,23 @@
+name: CI
+
+# v437: every push and pull request builds the app and runs the unit tests.
+on:
+  push:
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-and-test:
+    runs-on: macos-15
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install XcodeGen
+        run: brew install xcodegen
+      - name: Build
+        run: scripts/ci.sh build
+      - name: Unit tests
+        run: scripts/ci.sh test

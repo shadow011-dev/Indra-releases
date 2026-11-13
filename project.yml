@@ -8,14 +8,68 @@ targets:
     type: application
     platform: macOS
     sources: [Indra]
+    # v437: `xcodebuild test -scheme Indra` runs the unit tests in IndraTests (a plain build does not build them).
+    scheme:
+      testTargets:
+        - IndraTests
+    # Builds the Now Playing helper library once and puts it in Indra.app/Contents/Resources, so no Mac that
+    # runs Indra needs Xcode or the command line tools.
+    preBuildScripts:
+      - name: Build Now Playing helper
+        script: '"${SRCROOT}/Helper/build-helper.sh"'
+        basedOnDependencyAnalysis: false
+    # v443: the build number shown in the app and in the notch's right-click menu is always the number in VERSION, even if a
+    # patch forgets to bump CURRENT_PROJECT_VERSION below (v440-v442 did, so the app kept showing 439). Runs before signing.
+    postBuildScripts:
+      - name: Sync build number from VERSION
+        script: |
+          V="$(tr -d '[:space:]' < "${SRCROOT}/VERSION" 2>/dev/null || true)"
+          PLIST="${TARGET_BUILD_DIR}/${INFOPLIST_PATH}"
+          if [ -n "$V" ] && [ -f "$PLIST" ]; then
+            /usr/libexec/PlistBuddy -c "Set :CFBundleVersion $V" "$PLIST" || true
+          fi
+        basedOnDependencyAnalysis: false
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.indra.Indra
         SWIFT_VERSION: "5.0"
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "568"
         GENERATE_INFOPLIST_FILE: YES
         INFOPLIST_KEY_LSUIElement: YES
+        INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription: "Indra shows in the notch when your earbuds or headphones connect or disconnect."
+        INFOPLIST_KEY_NSLocationWhenInUseUsageDescription: "Indra uses your location once, when you ask, to find your city for the weather page."
+        INFOPLIST_KEY_NSLocationUsageDescription: "Indra uses your location once, when you ask, to find your city for the weather page."
+        INFOPLIST_KEY_NSCameraUsageDescription: "Indra uses the camera for the Mirror preview in the notch and, when you turn on Face Lock, to recognise your face and unlock your Mac."
+        INFOPLIST_KEY_NSAppleEventsUsageDescription: "Indra controls Apple Music and Spotify playback (play, pause, skip, seek) and reads which YouTube song is playing in Safari, Chrome and other browsers."
+        INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription: "Indra shows your upcoming events in the notch. Events are only read, never changed."
+        INFOPLIST_KEY_NSRemindersFullAccessUsageDescription: "Indra shows your reminders in the notch, and lets you add and finish them there."
         CODE_SIGN_STYLE: Automatic
         CODE_SIGN_IDENTITY: "-"
-        CODE_SIGN_ENTITLEMENTS: Indra/Indra.entitlements
-        ENABLE_APP_SANDBOX: YES
-        ENABLE_HARDENED_RUNTIME: YES
+        # Full-access build (v366): the trackpad motor (haptics on the notch), the volume / brightness keys and the
+        # all-apps Now Playing helper do not work inside the App Sandbox. To build the sandboxed Standard version again,
+        # use Indra/Indra-Standard.entitlements here and set ENABLE_APP_SANDBOX to YES.
+        CODE_SIGN_ENTITLEMENTS: Indra/Indra-FullAccess.entitlements
+        ENABLE_APP_SANDBOX: NO
+        # v421: OFF. With the hardened runtime on, macOS refuses every Apple event (and shows no prompt, and adds Indra to no
+        # list in Privacy & Security > Automation) unless the signature carries the Apple Events entitlement, and an ad-hoc
+        # signed local build cannot be relied on to carry it. The hardened runtime is only needed for notarised apps.
+        ENABLE_HARDENED_RUNTIME: NO
+        # The helper build script reads Helper/ and writes into the app bundle, which the script sandbox forbids.
+        ENABLE_USER_SCRIPT_SANDBOXING: NO
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+  # v437: unit tests for the app's pure logic (retry rules, caching, title matching). They run inside the app, so
+  # they can use its code with `@testable import Indra`.
+  IndraTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources: [IndraTests]
+    dependencies:
+      - target: Indra
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.indra.IndraTests
+        SWIFT_VERSION: "5.0"
+        GENERATE_INFOPLIST_FILE: YES
+        CODE_SIGN_STYLE: Automatic
+        CODE_SIGN_IDENTITY: "-"
